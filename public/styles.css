@@ -1,0 +1,361 @@
+.a{
+    color: white;
+}
+.a:hover{
+    color: white;
+}
+
+#__next {
+    padding: 20px;
+}
+.image-item {
+    padding: 0px 0px 0px 30px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif, black;
+}
+.btn{
+    height: 36px;
+}
+
+/*Contenedores*/
+.card-container{
+    width: 244px;
+    margin: 10px;
+}
+.boxFlip-container{
+    margin-top: 50px;
+    
+}
+
+.contenedor-navbar{
+    padding: 10px 27% 0 20%;
+    background-color: #F9F9F9;
+}
+.contenedor-boton{
+    width: 200px;
+}
+.container-row{
+    margin-left: 25%;
+    margin-right: 15%;
+}
+.container-txt{
+    width: 500px;
+    height: 350px;
+    margin-top: 50px;
+    
+}
+/*Contenedores*/
+
+/* Navbar  */
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    font-family: 'Roboto', sans-serif, black;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #D60238;
+}
+.navbar-nav{
+    padding-left: 10rem;
+    padding-right: 3rem;
+}
+
+.nav-item{
+    padding: 0 5% 0 5%;
+    font-size: 16px;
+}
+
+.navbar-toggler{
+    background-color: #D60238;
+}
+.fa-phone{
+    transform: rotate(90deg);
+}
+.btn-color{
+    height: 40px;
+    width: 300px;
+    background-color: #D60238;
+}
+/* Navbar  */
+
+/*Front Text*/
+.front-img{
+    width: 27rem;
+    height: 33rem;
+}
+.front-h1{
+    color: #272727;
+    font-family: "Poppins",Sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    line-height: 1;
+    display: block;
+    text-align: left;
+    margin-top: 5px;
+}
+.front-p1{
+    font-weight: 600;
+    color: #D60238;
+    margin-bottom: 10px;
+}
+.front-p2{
+    font-size: 15px;
+}
+.front-p3{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.front-p4{
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.front-p5{
+    font-weight: 600;
+    color: #D60238;
+}
+.btn-txt{
+    height: 45px;
+    width: 70%;
+    background-color: #D60238;
+}
+.p-btn{
+    font-family: "Roboto",Sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+@media (max-width:900px){
+    .front-h1,.front-p1,.front-p2,.front-p3,.front-p4,.front-p5{
+        text-align: center;
+    }
+}
+/*Front Text*/
+
+/*Carrusel*/
+
+
+.react-multi-carousel-list{
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 12%;
+    width: 75%;
+    height: 110px;
+}
+.react-multi-carousel-item{
+    width: 270px !important;
+    margin-right: 50px;
+}
+/*Carrusel*/
+
+/*Franja*/
+.franja{
+    background-color: #D60238;
+    width: 100%;
+    height: auto;
+}
+.franja-h1{
+    text-align: center;
+    color: #F9F9F9;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    font-size: 1.98vw;
+}
+
+.franja-txt{
+    margin-left: 29vw;
+    width: 47vw;
+    height: auto;
+}
+.franja-txt2{
+    margin-left: 36vw;
+    margin-right: 40vw;
+    width: auto;
+    height: auto;
+}
+.franja-div-p{
+    margin-left: 30vw;
+    height: auto;
+    padding-top: 30px;
+}
+.franja-p{
+    color: #FFF;
+    font-family: "Roboto",Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+@media (max-width: 900px){
+.franja-h1{
+    font-size: 20px;
+    text-align: center;
+}
+}
+/*Franja*/
+
+/*BoxFlip*/
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: white;
+    color: white;
+    width: 244px;
+    height: 144px;
+    border: 3px solid #D60238;
+}
+  
+  /* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+  /* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+  
+  /* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: white;
+    color: #D60238;
+}
+  
+  /* Style the back side */
+.flip-card-back {
+    background-color: #D60238;
+    color: white;
+    transform: rotateY(180deg);
+    
+}
+.box-btn{
+    background-color: white;
+    border: 2px solid white;
+    color: #D60238;
+    padding: 10px 10px 10px 10px;
+    margin-top: 50px;
+}
+.box-btn:hover{
+    background-color: #D60238;
+    color: white;
+}
+.box-p{
+    font-family: "Roboto",Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 50px 10px 10px 10px;
+}
+.box-p2{
+    font-family: "Roboto",Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 40px 10px 10px 10px;
+}
+.btn-box{
+    height: 45px;
+    width: 300px;
+    background-color: #D60238;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*BoxFlip*/
+
+/*Texto2*/
+.p-txt2{
+    color: #282828;
+    font-family: "Roboto",Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.txt-img{
+    width: 615px;
+    height: 398px;
+}
+.container-txt2{
+    margin-top: 50px;
+    width: 265px;
+    height: 500px;
+    margin-right: 50px;
+}
+.txt-tittle{
+    color: #D60238;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif, black !important;
+    margin-bottom: 0px;
+    padding: 10px 0 8px 0;
+}
+.container-row2{
+    margin-left: 10%;
+}
+.txt2-div-icon{
+   margin-top: 60px;
+   margin-left: 27px;
+}
+.txt2-div-icon2{
+    margin-top: 90px;
+    margin-left: 25px;
+ }
+ .txt2-div-icon3{
+    margin-top: 115px;
+    margin-left: 23px;
+ }
+
+.container-icons{
+    width: 70px;
+
+
+}
+.txt2-div-img{
+    margin-top: 50px !important;
+}
+/*Texto2*/
+
+/*Fotter*/
+.container-fotter{
+    background-color: #5F6062;
+    height: auto;
+    width: auto;
+}
+.container-copy{
+    background-color: #43464c;
+    height: auto;
+    width: auto;
+
+}
+.p-copy{
+    color: rgba(255,255,255,.32);
+    font-size: 13px;
+    font-weight: 300;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+.heading-fotter{
+    color: #FFF;
+    font-family: "Roboto",Sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.p-fotter{
+    color: rgba(255,255,255,.45);
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Roboto",Sans-serif !important;
+    text-align: center;
+}
