@@ -1,7 +1,5 @@
 import React from 'react';
-import icon from './images/image.png';
-import icon2 from './images/icons8-add-list-52.png'
-import icon3 from './images/image (1).png'
+
 
 function Texto2() {
     return (

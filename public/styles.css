@@ -142,12 +142,15 @@ body{
     margin-top: 10px;
     margin-left: 20%;
     margin-right: 12%;
-    width: 75%;
+    width: auto;
     height: 110px;
 }
+
 .react-multi-carousel-item{
-    width: 270px !important;
-    margin-right: 50px;
+    padding: 30px;
+    width: 300px !important;
+    margin-right: 0px;
+
 }
 /*Carrusel*/
 
