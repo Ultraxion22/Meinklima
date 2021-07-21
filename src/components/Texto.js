@@ -4,7 +4,7 @@ function Texto() {
     return (
         <div>
             <div className = "row d-flex justify-content-center my-3">
-                <div className = "col-lg-3 col-md-12 my-auto">
+                <div className = "col-lg-3 col-md-6 col-sm-6 my-auto mx-5">
                     <p className = "front-p1">PREOCUPADOS POR TU CALEFACCIÓN</p>
                     <h1 className = "front-h1">SERVICIOS DE CALEFACCIÓN A LA MEDIDA DE TU HOGAR</h1>
                     <p className= "front-p2">Tenemos un equipo de especialistas calificados para brindar servicios de instalación, mantenimiento preventivo y reparación en calderas.</p>

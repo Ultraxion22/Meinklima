@@ -29,7 +29,6 @@ body{
 }
 .boxFlip-container{
     margin-top: 50px;
-    
 }
 
 .contenedor-navbar{
@@ -47,7 +46,6 @@ body{
     width: 500px;
     height: 350px;
     margin-top: 30px;
-    
 }
 /*Contenedores*/
 
@@ -60,8 +58,6 @@ body{
 .navbar-dark .navbar-nav .nav-link:hover{
     color: #D60238;
 }
-
-
 .nav-item{
     padding: 0 5% 0 5%;
     font-size: 17px;
@@ -164,27 +160,9 @@ body{
 .franja-h1{
     text-align: center;
     color: #F9F9F9;
-    padding-top: 0px;
-    padding-bottom: 30px;
     font-size: 1.98vw;
 }
 
-.franja-txt{
-    margin-left: 29vw;
-    width: 47vw;
-    height: auto;
-}
-.franja-txt2{
-    margin-left: 36vw;
-    margin-right: 40vw;
-    width: auto;
-    height: auto;
-}
-.franja-div-p{
-    margin-left: 30vw;
-    height: auto;
-    padding-top: 30px;
-}
 .franja-p{
     color: #FFF;
     font-family: "Roboto",Sans-serif;
