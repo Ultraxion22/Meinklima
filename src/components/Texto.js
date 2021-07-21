@@ -3,7 +3,7 @@ import React from 'react';
 function Texto() {
     return (
         <div>
-            <div className = "row d-flex justify-content-center my-3">
+            <div className = "row d-flex justify-content-center my-3 mx-5">
                 <div className = "col-lg-3 col-md-6 col-sm-6 my-auto mx-5">
                     <p className = "front-p1">PREOCUPADOS POR TU CALEFACCIÓN</p>
                     <h1 className = "front-h1">SERVICIOS DE CALEFACCIÓN A LA MEDIDA DE TU HOGAR</h1>
