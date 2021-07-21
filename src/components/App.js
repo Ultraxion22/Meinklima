@@ -17,8 +17,8 @@ function App() {
         <div>
             <Navbar />
             <Texto />
-            <Section>
-                <Simple/>
+            <Section className="d-none d-lg-block">
+                <Simple className="d-none d-lg-block"/>
             </Section>
             <Franja h1 = "SERVICIOS DE CALEFACCIÓN"
                 class="franja-txt2 d-flex justify-content center"

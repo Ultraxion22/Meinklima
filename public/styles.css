@@ -20,6 +20,9 @@ body{
 }
 
 /*Contenedores*/
+.navbar-div{
+    margin-left: 100px;
+}
 .card-container{
     width: 244px;
     margin: 10px;
@@ -30,20 +33,20 @@ body{
 }
 
 .contenedor-navbar{
-    padding: 10px 27% 0 20%;
+    padding: 10px 17% 0 17%;
     background-color: #F9F9F9;
 }
 .contenedor-boton{
     width: 200px;
 }
 .container-row{
-    margin-left: 25%;
-    margin-right: 15%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container-txt{
     width: 500px;
     height: 350px;
-    margin-top: 50px;
+    margin-top: 30px;
     
 }
 /*Contenedores*/
@@ -53,17 +56,15 @@ body{
     color: black;
     font-family: 'Roboto', sans-serif, black;
 }
+
 .navbar-dark .navbar-nav .nav-link:hover{
     color: #D60238;
 }
-.navbar-nav{
-    padding-left: 10rem;
-    padding-right: 3rem;
-}
+
 
 .nav-item{
     padding: 0 5% 0 5%;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .navbar-toggler{
@@ -305,26 +306,22 @@ body{
     padding: 10px 0 8px 0;
 }
 .container-row2{
-    margin-left: 10%;
+    margin-left: 0px;
 }
 .txt2-div-icon{
-   margin-top: 60px;
-   margin-left: 27px;
+   margin-top: 10px;
 }
 .txt2-div-icon2{
     margin-top: 90px;
-    margin-left: 25px;
  }
  .txt2-div-icon3{
-    margin-top: 115px;
-    margin-left: 23px;
+    margin-top: 135px;
  }
 
 .container-icons{
-    width: 70px;
-
-
+    width: 20px;
 }
+
 .txt2-div-img{
     margin-top: 50px !important;
 }

@@ -5,7 +5,7 @@ function Fotter() {
         <div>
         <div className="container-fotter d-flex justify-content-center">
             <div className = "row px-5 py-5 d-flex justify-content-center w-75">
-                <div className = "col-lg-2 col-9 mb-5 mt-2 d-flex justify-content-center">
+                <div className = "col-lg-2 col-12 mb-5 mt-2 d-flex justify-content-center">
                     <div>
                     <h2 className = "heading-fotter">CONTACTO</h2>
                     <div className = "w-100" style={{marginBottom:"5px"}}>
@@ -21,21 +21,14 @@ function Fotter() {
                     <i class="fab fa-linkedin-in fa-3x" style={{color:"#0082ca",marginRight:"10px"}}></i>
                     </div>
                 </div>
-                <div className = "col-lg-2 col-4 my-2"> 
+                <div className = "col-lg-2 col-6 my-2"> 
                 <h4 className = "heading-fotter">SERVICIOS</h4> 
                 <p className="p-fotter">Instalacion</p>
                 <p className="p-fotter">Mantencion</p>  
                 <p className="p-fotter">Reparacion</p>  
                 <p className="p-fotter">Proyectos</p>  
                 </div>
-                <div className = "col-lg-2 col-4 my-2">
-                    <h4 className = "heading-fotter">CATALOGO</h4>
-                    <p className="p-fotter">Instalacion</p>
-                    <p className="p-fotter">Mantencion</p>  
-                    <p className="p-fotter">Reparacion</p>  
-                    <p className="p-fotter">Proyectos</p>  
-                </div>
-                <div className = "col-lg-2 col-4 my-2">
+                <div className = "col-lg-2 col-6 my-2">
                     <h4 className = "heading-fotter">INFORMACIÓN</h4>
                     <p className="p-fotter">Instalacion</p>
                     <p className="p-fotter">Mantencion</p>  
