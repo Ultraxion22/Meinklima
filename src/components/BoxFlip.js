@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function BoxFlip() {
     return (
         <div>
-            <div className = "row justify-content-center boxFlip-container">
+            <div className = "row d-flex justify-content-center mx-5 mt-5">
                 <div className = "col-lg-3 col-md-6 col-sm-12 card-container">
                     <div className="flip-card">
                         <div className="flip-card-inner">

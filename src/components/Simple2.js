@@ -1,5 +1,5 @@
 import Carousel from "react-multi-carousel";
-import { Divider, Image } from "semantic-ui-react";
+import { Image } from "semantic-ui-react";
 
 const responsive = {
   desktop: {

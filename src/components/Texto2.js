@@ -26,7 +26,7 @@ function Texto2() {
                     <p className = "p-txt2">Terminado el proyecto, realizamos un seguimiento de tu calefacción, para posteriormente ver el mantenimiento preventivo.</p>
                 </div>
                 <div className = "col-lg-4 d-none d-lg-block">
-                    <img className = "txt-img" src= "https://meinklima.cl/wp-content/uploads/2021/04/new-project-4.jpg"/>
+                    <img alt="imagen2" className = "txt-img" src= "https://meinklima.cl/wp-content/uploads/2021/04/new-project-4.jpg"/>
                 </div>
             </div>
         </div>

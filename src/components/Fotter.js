@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function Fotter() {
     return (
         <div>
         <div className="container-fotter d-flex justify-content-center">
             <div className = "row px-5 py-5 d-flex justify-content-center w-75">
-                <div className = "col-lg-2 col-12 mb-5 mt-2 d-flex justify-content-center">
+                <div className = "col-lg-2 col-12 mb-5 mt-2 d-flex justify-content-center mx-3">
                     <div>
                     <h2 className = "heading-fotter">CONTACTO</h2>
                     <div className = "w-100" style={{marginBottom:"5px"}}>

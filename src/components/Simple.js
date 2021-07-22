@@ -1,5 +1,5 @@
 import Carousel from "react-multi-carousel";
-import { Divider, Image } from "semantic-ui-react";
+import { Image } from "semantic-ui-react";
 
 const responsive = {
   desktop: {
@@ -35,7 +35,7 @@ const Simple = ({ deviceType }) => {
         return (
           <Image
             draggable={false}
-            style={{ width: "245px", height: "5rem", objectFit: "scale-down"}}
+            style={{ width: "300px", height: "200px", objectFit: "scale-down"}}
             src={image}
           />
         );

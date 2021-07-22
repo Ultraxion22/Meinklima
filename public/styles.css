@@ -25,28 +25,38 @@ body{
 }
 .card-container{
     width: 244px;
-    margin: 10px;
-}
-.boxFlip-container{
-    margin-top: 50px;
+    margin: 10px 20px 10px 0px;
 }
 
+
 .contenedor-navbar{
-    padding: 10px 17% 0 17%;
+    padding: 10px 25% 0 25%;
     background-color: #F9F9F9;
+}
+@media (max-width:900px){
+    .contenedor-navbar{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 .contenedor-boton{
     width: 200px;
 }
+@media (max-width:500px){
+    .contenedor-boton{
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+
 .container-row{
     margin-left: auto;
     margin-right: auto;
 }
-.container-txt{
-    width: 500px;
-    height: 350px;
-    margin-top: 30px;
-}
+
 /*Contenedores*/
 
 /* Navbar  */
@@ -78,8 +88,8 @@ body{
 
 /*Front Text*/
 .front-img{
-    width: 27rem;
-    height: 33rem;
+    width: 33rem;
+    height: 40rem;
 }
 .front-h1{
     color: #272727;
@@ -96,10 +106,16 @@ body{
 .front-p1{
     font-weight: 600;
     color: #D60238;
+    font-size: 18px;
     margin-bottom: 10px;
 }
+.txt-container{
+    margin-top: 6%;
+}
+
+
 .front-p2{
-    font-size: 15px;
+    font-size: 18px;
 }
 .front-p3{
     font-weight: 600;
@@ -120,6 +136,11 @@ body{
     width: 70%;
     background-color: #D60238;
 }
+@media (max-width:900px){
+    .btn-txt{
+        margin:0 15% 0 15%
+    }
+}
 .p-btn{
     font-family: "Roboto",Sans-serif;
     font-weight: 500;
@@ -138,11 +159,12 @@ body{
 .react-multi-carousel-list{
     margin: auto;
     width: auto;
-    height: 110px;
+    height: 223px;
+    
 }
 @media (min-width:900px){
     .react-multi-carousel-list{
-        left:150px;
+        left:200px;
     }
 }
 
@@ -150,7 +172,10 @@ body{
     padding: 30px;
     width: 300px !important;
     margin-right: 0px;
-
+}
+.image{
+    padding: 10px;
+    border: 3px solid #D60238;
 }
 /*Carrusel*/
 
@@ -161,7 +186,6 @@ body{
     height: auto;
 }
 .franja-h1{
-    text-align: center;
     color: #F9F9F9;
     font-size: 1.98vw;
 }
@@ -171,6 +195,13 @@ body{
     font-family: "Roboto",Sans-serif;
     font-size: 16px;
     font-weight: 400;
+    margin-left: 26%;
+}
+@media (max-width: 900px){
+    .franja-p{
+        margin-left: 22%;
+        margin-right: 10%;
+    }
 }
 @media (max-width: 900px){
 .franja-h1{
@@ -231,7 +262,7 @@ body{
     background-color: white;
     border: 2px solid white;
     color: #D60238;
-    padding: 10px 10px 10px 10px;
+    padding:6px 10px 10px 10px;
     margin-top: 50px;
 }
 .box-btn:hover{
@@ -331,12 +362,12 @@ body{
     color: #FFF;
     font-family: "Roboto",Sans-serif;
     font-weight: 400;
-    text-align: center;
+    text-align: justify;
 }
 .p-fotter{
     color: rgba(255,255,255,.45);
     font-size: 14px;
     font-weight: 300;
     font-family: "Roboto",Sans-serif !important;
-    text-align: center;
+    text-align: justify;
 }
