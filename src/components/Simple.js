@@ -27,6 +27,7 @@ const Simple = ({ deviceType }) => {
     <Carousel
       ssr
       partialVisbile
+      renderArrowPrev
       deviceType={deviceType}
       itemClass="image-item"
       responsive={responsive}

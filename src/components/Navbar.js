@@ -1,24 +1,23 @@
 import React from 'react';
-import { BrowserRouter, Link, Route } from "react-router-dom";
-import Servicios from '../views/Servicios';
+import { Link } from 'react-router-dom';
 
 
-function Navbar() {
+
+function Navbar(props) {
     return(
-      <BrowserRouter>
         <div className="container-fluid contenedor-navbar py-3">
             <nav className="navbar navbar-expand-lg bg-light navbar-dark">
-            <img src="https://meinklima.cl/wp-content/uploads/elementor/thumbs/MeinKlima_Transparente-p53f2dty2jfjmgilw5i0wtzb80fn8rfxz0ybsdinww.png" alt="logo-meinklima"/>
+            <Link to="/"><img src="https://meinklima.cl/wp-content/uploads/elementor/thumbs/MeinKlima_Transparente-p53f2dty2jfjmgilw5i0wtzb80fn8rfxz0ybsdinww.png" alt="logo-meinklima" /></Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto"> 
-              <li className="nav-item px-3">
-                  <p>Inicio</p>
+              <li className="nav-item px-3 py-2">
+                  <Link to="/"><p className="navbar-p">Inicio</p></Link>
               </li>
-              <li className="nav-item px-3">
-                <p>Servicios</p>
+              <li className="nav-item px-3 py-2">
+                <Link to="/instalaciones"><p className="navbar-p">Servicios</p></Link>
               </li>
             </ul>
             </div>
@@ -27,9 +26,7 @@ function Navbar() {
             
             </div>
             </nav>
-            <Route path="/servicios" exact component={Servicios} />
         </div>
-      </BrowserRouter>
 
     );
 }

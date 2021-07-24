@@ -1,56 +1,22 @@
 import React from 'react';
+import Box from './Box';
+import BoxButton from './BoxButton';
 
-function BoxFlip() {
+function BoxFlip(props) {
     return (
         <div>
             <div className = "row d-flex justify-content-center mx-5 mt-5">
                 <div className = "col-lg-3 col-md-6 col-sm-12 card-container">
-                    <div className="flip-card">
-                        <div className="flip-card-inner">
-                            <div className="flip-card-front">
-                                <p className="box-p">INSTALACION</p>
-                            </div>
-                            <div className="flip-card-back">
-                                <button className="btn box-btn">PRESIONA AQUI</button>   
-                            </div>
-                        </div>
-                    </div>
+                    <BoxButton b1 = "INSTALACIÓN" />
                 </div>
                 <div className = "col-lg-3 col-md-6 col-sm-12  card-container">
-                    <div className="flip-card">
-                        <div className="flip-card-inner">
-                            <div className="flip-card-front">
-                                <p className="box-p2">MANTENIMIENTO PREVENTIVO</p>
-                            </div>
-                            <div className="flip-card-back">
-                                <button className="btn box-btn">PRESIONA AQUI</button>
-                            </div>
-                        </div>
-                    </div>
+                    <BoxButton />
                 </div>
                 <div className = "col-lg-3 col-md-6 col-sm-12 card-container">
-                    <div className="flip-card">
-                        <div className="flip-card-inner">
-                            <div className="flip-card-front">
-                                <p className="box-p">REPARACION</p>
-                            </div>
-                            <div className="flip-card-back">
-                                <button className="btn box-btn">PRESIONA AQUI</button>
-                            </div>
-                        </div>
-                    </div>
+                    <BoxButton />
                 </div>
                 <div className = "col-lg-3 col-md-6 col-sm-12 card-container">
-                    <div className="flip-card">
-                        <div className="flip-card-inner">
-                            <div className="flip-card-front">
-                                <p className="box-p">PROYECTOS</p>
-                            </div>
-                            <div className="flip-card-back">
-                                <button className="btn box-btn">PRESIONA AQUI</button>
-                            </div>
-                        </div>
-                    </div>
+                    <BoxButton />
                 </div>
             </div>
             <div className="d-flex justify-content-center">
