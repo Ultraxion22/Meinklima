@@ -1,11 +1,11 @@
 import React from "react";
 import { Media } from "react-bootstrap";
 
-const Section = ({ children }) => {
+const Section2 = ({ children }) => {
   return (
     <section
       style={{
-        margin: "0px 10% 44px 10%"
+        margin: "50px 10% 50px 9.3%"
       }}
     >
       {children}
@@ -13,4 +13,4 @@ const Section = ({ children }) => {
   );
 };
 
-export default Section;
+export default Section2;

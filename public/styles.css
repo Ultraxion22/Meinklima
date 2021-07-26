@@ -118,11 +118,8 @@ body{
     margin-bottom: 10px;
 }
 .txt-container{
-    margin-top: 6%;
-    left: 300px   
+    margin-top: 5.5%;
 }
-
-
 
 .front-p2{
     font-size: 18px;
@@ -173,12 +170,12 @@ body{
     margin: auto;
     width: auto;
     height: 223px;
-    left: 15px;
-    
+    left: 2px;
 }
+
 @media (min-width:900px){
     .react-multi-carousel-list{
-        left:200px;
+        left: 190px;
     }
 }
 
@@ -202,6 +199,11 @@ body{
 .franja-h1{
     color: #F9F9F9;
     font-size: 1.98vw;
+    text-align: center;
+}
+.franja2-h1{
+    color: #F9F9F9;
+    font-size: 36px;
     text-align: justify;
 }
 
@@ -223,6 +225,12 @@ body{
     font-size: 20px;
     text-align: center;
 }
+}
+.franja-lista{
+    color: #FFF;
+    font-family: "Roboto",Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
 }
 /*Franja*/
 
@@ -349,9 +357,19 @@ body{
 .txt2-div-icon2{
     margin-top: 90px;
  }
- .txt2-div-icon3{
+@media (min-width: 900px){
+    .txt2-div-icon2{
+        margin-top: 72px;
+    }
+}
+.txt2-div-icon3{
     margin-top: 135px;
- }
+}
+@media (min-width: 900px){
+    .txt2-div-icon3{
+        margin-top: 110px;
+    }
+}
 
 .container-icons{
     width: 20px;

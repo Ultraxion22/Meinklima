@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Fotter() {
     return (
@@ -23,17 +24,17 @@ function Fotter() {
                 </div>
                 <div className = "col-lg-2 col-6 my-2"> 
                 <h4 className = "heading-fotter">SERVICIOS</h4> 
-                <p className="p-fotter">Instalacion</p>
+                <Link to="/instalaciones"><p className="p-fotter my-3">Instalacion</p></Link>
                 <p className="p-fotter">Mantencion</p>  
                 <p className="p-fotter">Reparacion</p>  
                 <p className="p-fotter">Proyectos</p>  
                 </div>
                 <div className = "col-lg-2 col-6 my-2">
                     <h4 className = "heading-fotter">INFORMACIÓN</h4>
-                    <p className="p-fotter">Instalacion</p>
-                    <p className="p-fotter">Mantencion</p>  
-                    <p className="p-fotter">Reparacion</p>  
-                    <p className="p-fotter">Proyectos</p>  
+                    <a href="https://drive.google.com/file/d/1ZCpXnCBMYCjLLBrDKnBM8156nRQF5U0s/view?usp=sharing"><p className="p-fotter my-3">Términos y condiciones</p></a>
+                    <a href="https://drive.google.com/file/d/1A6TBEEY6xaDrnK-u4eWdgSxKAgq3Ruww/view?usp=sharing"><p className="p-fotter my-3">Privacidad</p></a>
+                    <a href="https://drive.google.com/file/d/1-K3PyU9Us8vuxrRIFUoi32at_31ABgao/view?usp=sharing"><p className="p-fotter my-3">Garantía</p></a>
+                    <a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20soy%20t%C3%A9cnico"><p className="p-fotter my-3">Descuento técnico</p></a>
                 </div>
                 
             </div>

@@ -8,6 +8,7 @@ import "semantic-ui-css/semantic.min.css";
 import "react-multi-carousel/lib/styles.css";
 import {Animated} from "react-animated-css";
 import Instalacion from '../views/Instalacion';
+import Mantenimiento from '../views/Mantenimiento'
 
 
 
@@ -23,6 +24,7 @@ function App() {
                         <Route path="/" exact component={Home}></Route>
                         <Route path="/servicios" exact component={Servicios}></Route>
                         <Route path="/instalaciones" exact component={Instalacion}></Route>
+                        <Route path="/mantenimiento" exact component={Mantenimiento}></Route>
                     </Switch>
                     <Fotter />
 

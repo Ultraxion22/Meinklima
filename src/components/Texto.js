@@ -3,7 +3,7 @@ import React from 'react';
 function Texto(props) {
     return (
             <div>
-                <div className = "row d-flex justify-content-center mt-3 mb-3 me-lg-5 mx-3">
+                <div className = "row d-flex justify-content-center mt-3 mb-3 ms-lg-5 ps-lg-4 mx-3">
                     <div className = "col-lg-4 col-md-6 col-sm-6 txt-container">
                         <p className = "front-p1">PREOCUPADOS POR TU CALEFACCIÓN</p>
                         <h1 className = "front-h1">SERVICIOS DE CALEFACCIÓN A LA MEDIDA DE TU HOGAR</h1>
@@ -13,7 +13,7 @@ function Texto(props) {
                         <p className= "front-p4 d-none d-sm-block d-sm-none d-md-block">* PRESTAMOS SERVICIOS EN TODA LA REGIÓN METROPOLITANA.</p>
                         <p className = "front-p5 d-none d-sm-block d-sm-none d-md-block">* VISITA TÉCNICA GRATUITA.</p>
                     </div>
-                    <div className = "col-lg-2 col-md-12 my-auto">
+                    <div className = "col-lg-3 col-md-12 my-auto">
                         <img alt ="imagen1" className = "front-img d-none d-lg-block" src= "https://meinklima.cl/wp-content/uploads/2021/04/Navien-aquaplus-fondo.png"/>
                     </div>
                 </div>

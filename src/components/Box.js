@@ -6,7 +6,7 @@ export default function Box(props) {
         <div className="flip-card">
             <div className="flip-card-inner">
                 <div className="flip-card-front">
-                    <p className="box-p">{props.p1}</p>
+                    <p className={props.class2}>{props.p1}</p>
                 </div>
                 <div className="flip-card-back">
                     <p className ={props.class}>{props.p2}</p>  
