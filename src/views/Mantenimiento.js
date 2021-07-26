@@ -29,6 +29,9 @@ export default function Instalacion() {
                     </ol>
                 </div>
             </div>
+            <div className="d-flex justify-content-center my-5 pt-3 mx-3">
+                <h1 className="front-h1">REALIZAMOS MANTENIMIENTO A...</h1>
+            </div>
             <div className = "row d-flex justify-content-center mx-5 my-5 py-3">
                 <div className = "col-lg-2 col-md-6 col-sm-12 my-2">
                     <Box p1 = "CALDERAS MURALES"
@@ -50,6 +53,9 @@ export default function Instalacion() {
                         class = "box-p2"
                         class2 = "box-p2"
                     />
+                </div>
+                <div className="d-flex justify-content-center">
+                    <button className="btn btn-danger btn-box"><a className="a" href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica"><p className = "p-btn">QUIERO SOLICITAR UN SERVICIO</p></a></button>
                 </div>
             </div>
         </div>

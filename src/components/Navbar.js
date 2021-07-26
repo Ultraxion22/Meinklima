@@ -25,7 +25,7 @@ function Navbar(props) {
                       <ul className="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
                         <li className="mx-3 my-2"><Link className="navbar-p dropdown-item" to="/instalaciones">Instalacion</Link></li>
                         <li className="mx-3 my-2"><Link className="navbar-p dropdown-item" to="/mantenimiento">Mantenimiento</Link></li>
-                        <li className="mx-3 my-2"><p className="navbar-p dropdown-item">Reparacion</p></li>
+                        <li className="mx-3 my-2"><Link className="navbar-p dropdown-item" to="/reparaciones">Reparaciones</Link></li>
                         <li className="mx-3 my-2"><p className="navbar-p dropdown-item">Proyecto</p></li>
                       </ul>
                     </li>

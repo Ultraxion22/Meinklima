@@ -9,6 +9,7 @@ import "react-multi-carousel/lib/styles.css";
 import {Animated} from "react-animated-css";
 import Instalacion from '../views/Instalacion';
 import Mantenimiento from '../views/Mantenimiento'
+import Reparacion from '../views/Reparacion';
 import Navbar2 from '../components/Navbar2';
 
 
@@ -26,6 +27,7 @@ function App() {
                         <Route path="/servicios" exact component={Servicios}></Route>
                         <Route path="/instalaciones" exact component={Instalacion}></Route>
                         <Route path="/mantenimiento" exact component={Mantenimiento}></Route>
+                        <Route path="/reparaciones" exact component={Reparacion}></Route>
                     </Switch>
                     <Fotter />
 
