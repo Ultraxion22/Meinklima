@@ -206,7 +206,12 @@ body{
     font-size: 36px;
     text-align: justify;
 }
-
+@media (max-width: 900px){
+    .franja2-h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    }
 .franja-p{
     color: #FFF;
     font-family: "Roboto",Sans-serif;

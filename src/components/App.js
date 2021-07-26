@@ -9,6 +9,7 @@ import "react-multi-carousel/lib/styles.css";
 import {Animated} from "react-animated-css";
 import Instalacion from '../views/Instalacion';
 import Mantenimiento from '../views/Mantenimiento'
+import Navbar2 from '../components/Navbar2';
 
 
 

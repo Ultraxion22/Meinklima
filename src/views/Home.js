@@ -7,6 +7,7 @@ import BoxButton from '../components/BoxButton';
 import Simple2 from '../components/Simple2';
 import Texto2 from '../components/Texto2';
 import Section2 from '../components/Section2';
+import Navbar2 from '../components/Navbar2';
 import "semantic-ui-css/semantic.min.css";
 import "react-multi-carousel/lib/styles.css";
 
