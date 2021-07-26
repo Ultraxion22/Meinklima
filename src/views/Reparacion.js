@@ -6,7 +6,7 @@ import Box from '../components/Box';
 export default function Reparacion() {
     return (
         <div className="animate__animated animate__fadeIn">
-            <div className = "row d-flex justify-content-center p-5 pt-3 ms-lg-5 my-5 mx-3">
+            <div className = "row d-flex justify-content-center p-lg-5 pt-3 ms-lg-5 my-5 mx-3">
                     <div className = "col-lg-4 col-md-6 col-sm-6 ">
                         <p className = "front-p1">SERVICIO DE REPARACIÓN</p>
                         <h1 className = "front-h1">TE ENTENDEMOS, ES UN DOLOR DE CABEZA ESTOS INCONVENIENTES</h1>

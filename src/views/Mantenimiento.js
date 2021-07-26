@@ -6,7 +6,7 @@ import Box from '../components/Box';
 export default function Instalacion() {
     return (
         <div className="animate__animated animate__fadeIn">
-            <div className = "row d-flex justify-content-center my-5 me-lg-5 mx-3">
+            <div className = "row d-flex justify-content-center my-5 me-lg-5 mx-3 p-lg-4">
                     <div className = "col-lg-4 col-md-12 my-auto">
                         <img alt ="imagen1" className = "img-fluid d-none d-lg-block" src= "https://meinklima.cl/wp-content/uploads/2021/04/como-utilizar-la-calefaccion-del-hogar-1024x683.jpg"/>
                     </div>
