@@ -17,7 +17,7 @@ export default function Proyecto() {
                         <button className="btn btn-danger btn-txt"><a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a"><p className="p-btn">AGENDA TU VISITA</p></a></button>
                     </div>
                     <div className = "col-lg-4 col-md-12 my-auto">
-                    <img alt ="imagen1" className = "img-fluid d-none d-lg-block" src= "https://meinklima.cl/wp-content/uploads/2021/04/como-utilizar-la-calefaccion-del-hogar-1024x683.jpg"/>
+                    <img alt ="imagen1" className = "img-fluid d-none d-lg-block" src= "https://i.ibb.co/r40D6bN/como-utilizar-la-calefaccion-del-hogar.jpg"/>
                     </div>
                     
             </div>
@@ -32,19 +32,19 @@ export default function Proyecto() {
                 <div className = "col-lg-2 col-md-6 col-sm-12 my-2">
                     <Box p1 = "MANTENIMIENTO"
                         p2 = "PRIMER MANTENIMIENTO PREVENTIVO GRATUITO"
-                        class = "box-p3" 
+                        class = "box-p3 text-start" 
                         class2 = "box-p"/>
                 </div>
                 <div className = "col-lg-2 col-md-6 col-sm-12 my-2">
                     <Box p1 = "SOPORTE TÉCNICO"
                     p2 = "SOPORTE TÉCNICO EN TERRENO Y VÍA TELEFÓNICA"
-                    class = "box-p3"
+                    class = "box-p3 text-start ps-3"
                     class2 = "box-p"/>
                 </div>
                 <div className = "col-lg-2 col-md-6 col-sm-12 my-2">
                     <Box p1 = "GARANTÍA"
                         p2 = "GARANTÍA CUBIERTA POR EL FABRICANTE Y POR NOSOTROS"
-                        class = "box-p3"
+                        class = "box-p3 text-start ps-3"
                         class2 = "box-p"/>
                 </div>
             </div>

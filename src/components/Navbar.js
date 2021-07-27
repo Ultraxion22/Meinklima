@@ -23,11 +23,17 @@ function Navbar(props) {
                       <Link className="navbar-p" to="/servicios">Servicios</Link>
                       </a>
                       <ul className="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
-                        <li className="mx-3 my-2"><Link className="navbar-p dropdown-item" to="/instalaciones">Instalacion</Link></li>
-                        <li className="mx-3 my-2"><Link className="navbar-p dropdown-item" to="/mantenimiento">Mantenimiento</Link></li>
-                        <li className="mx-3 my-2"><Link className="navbar-p dropdown-item" to="/reparaciones">Reparaciones</Link></li>
+                        <li className="mx-3 my-3"><Link className="navbar-p dropdown-item" to="/instalaciones">Instalacion</Link></li>
+                        <li className="mx-3 my-3"><Link className="navbar-p dropdown-item" to="/mantenimiento">Mantenimiento</Link></li>
+                        <li className="mx-3 my-3"><Link className="navbar-p dropdown-item" to="/reparaciones">Reparaciones</Link></li>
                         <li className="mx-3 my-2"><Link className="navbar-p dropdown-item" to="/proyectos">Proyectos</Link></li>
                       </ul>
+                    </li>
+                    <li className="nav-item px-3 py-2">
+                        <Link className="navbar-p nav-link" to="/catalogo">Catalogo</Link>
+                    </li>
+                    <li className="nav-item px-3 py-2">
+                        <Link className="navbar-p nav-link" to="/">Blog</Link>
                     </li>
                   </ul>
                 </div>

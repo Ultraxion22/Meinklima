@@ -9,7 +9,7 @@ export default function Instalacion() {
         <div className="animate__animated animate__fadeIn">
             <div className = "row d-flex justify-content-center mt-3 mb-3 me-lg-5 mx-3">
                     <div className = "col-lg-3 col-md-12 my-auto">
-                        <img alt ="imagen1" className = "front-img d-none d-lg-block" src= "https://meinklima.cl/wp-content/uploads/2021/04/CALDERA-MURAL-MIXTA-ECO-CONDENS-32-37-1.jpg"/>
+                        <img alt ="imagen1" className = "front-img d-none d-lg-block" src= "https://i.ibb.co/S5sKL8S/CALDERA-MURAL-MIXTA-ECO-CONDENS-32-37-1.jpg" alt="CALDERA-MURAL-MIXTA-ECO-CONDENS-32-37-1"/>
                     </div>
                     <div className = "col-lg-3 col-md-6 col-sm-6 txt-container">
                         <p className = "front-p1">SERVICIO DE INSTALACIÓN</p>
@@ -58,21 +58,21 @@ export default function Instalacion() {
                 <div className = "col-lg-2 col-md-6 col-sm-12 my-2">
                     <Box p1 = "MANTENIMIENTO"
                         p2 = "PRIMER MANTENIMIENTO PREVENTIVO GRATUITO"
-                        class = "box-p3" 
+                        class = "box-p3 text-start ps-3" 
                         class2 = "box-p"
                         />
                 </div>
                 <div className = "col-lg-2 col-md-6 col-sm-12 my-2">
                     <Box p1 = "SOPORTE TÉCNICO"
                     p2 = "SOPORTE TÉCNICO EN TERRENO Y VÍA TELEFÓNICA"
-                    class = "box-p3"
+                    class = "box-p3 text-start ps-3" 
                     class2 = "box-p"
                 />
                 </div>
                 <div className = "col-lg-2 col-md-6 col-sm-12 my-2">
                     <Box p1 = "GARANTÍA"
                         p2 = "GARANTÍA CUBIERTA POR EL FABRICANTE Y POR NOSOTROS"
-                        class = "box-p3"
+                        class = "box-p3 text-start ps-3"
                         class2 = "box-p"
                         
                     />

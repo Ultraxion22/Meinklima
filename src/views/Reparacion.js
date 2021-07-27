@@ -14,7 +14,7 @@ export default function Reparacion() {
                         <button className="btn btn-danger btn-txt"><a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a"><p className="p-btn">AGENDA TU VISITA</p></a></button>
                     </div>
                     <div className = "col-lg-4 col-md-12 my-auto">
-                    <img alt ="imagen1" className = "img-fluid d-none d-lg-block" src= "https://meinklima.cl/wp-content/uploads/2021/04/1-1-1024x683.jpg"/>
+                    <img alt ="imagen1" className = "img-fluid d-none d-lg-block" src= "https://i.ibb.co/q5ZVkw8/1-1.jpg"/>
                     </div>
                     
             </div>
