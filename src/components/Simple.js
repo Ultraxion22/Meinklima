@@ -16,10 +16,10 @@ const responsive = {
   }
 };
 const images = [
-  "https://meinklima.cl/wp-content/uploads/2021/04/large_anwo_logo.png",
-  "https://meinklima.cl/wp-content/uploads/2021/04/Baxi.png",
-  "https://meinklima.cl/wp-content/uploads/2021/04/logo_rinnai.png",
-  "https://meinklima.cl/wp-content/uploads/2021/04/logosime.png"
+  "https://neufert-cdn.archdaily.net/uploads/account_logo/logo/971/large_anwo_logo.png",
+  "https://i.ibb.co/PFLKPLR/pngegg-1.png",
+  "https://upload.wikimedia.org/wikipedia/commons/9/99/Rinnai_Logo_2019.png",
+  "https://seeklogo.com/images/S/Sime-logo-03CB03F4EB-seeklogo.com.png"
 ];
 
 const Simple = ({ deviceType }) => {

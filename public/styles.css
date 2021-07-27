@@ -31,7 +31,7 @@ body{
     margin: 10px 20px 10px 0px;
 }
 .contenedor-navbar{
-    padding: 10px 25% 0 25%;
+    padding: 10px 15% 0 15%;
     background-color: #F9F9F9;
 }
 @media (max-width:900px){
@@ -57,6 +57,10 @@ body{
 /*Contenedores*/
 
 /* Navbar  */
+.nav-img{
+    width: 180px;
+    height: 40px;
+}
 .navbar-p{
     font-size: 18px;
     color: #282828;
@@ -171,7 +175,7 @@ body{
 
 @media (min-width:900px){
     .react-multi-carousel-list{
-        left: 190px;
+        left: 10%;
     }
 }
 

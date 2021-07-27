@@ -16,10 +16,10 @@ const responsive = {
   }
 };
 const images = [
-  "https://meinklima.cl/wp-content/uploads/2021/04/large_anwo_logo.png",
-  "https://meinklima.cl/wp-content/uploads/2021/05/COSMOPLAS.jpg",
-  "https://meinklima.cl/wp-content/uploads/2021/05/NOVA.png",
-  "https://meinklima.cl/wp-content/uploads/2021/05/recal.jpg"
+  "https://neufert-cdn.archdaily.net/uploads/account_logo/logo/971/large_anwo_logo.png",
+  "https://agrotendencia.tv/agroshow/wp-content/uploads/2021/05/logo-cosmoplas.png",
+  "https://www.agrificiente.cl/wp-content/uploads/2017/05/descarga-300x111.png",
+  "https://i.ibb.co/XZqZmgK/recal.jpg"
 ];
 
 const Simple2 = ({ deviceType }) => {
