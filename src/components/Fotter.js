@@ -25,9 +25,9 @@ function Fotter() {
                 <div className = "col-lg-2 col-6 my-2"> 
                 <h4 className = "heading-fotter">SERVICIOS</h4> 
                 <Link to="/instalaciones"><p className="p-fotter my-3">Instalacion</p></Link>
-                <p className="p-fotter">Mantencion</p>  
-                <p className="p-fotter">Reparacion</p>  
-                <p className="p-fotter">Proyectos</p>  
+                <Link to="/mantenimiento"><p className="p-fotter my-3">Mantencion</p></Link> 
+                <Link to="/reparaciones"><p className="p-fotter my-3">Reparaciones</p></Link> 
+                <Link to="/proyectos"><p className="p-fotter my-3">Proyectos</p></Link>  
                 </div>
                 <div className = "col-lg-2 col-6 my-2">
                     <h4 className = "heading-fotter">INFORMACIÓN</h4>

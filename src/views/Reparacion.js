@@ -1,6 +1,6 @@
 import React from 'react';
 import Franja from '../components/Franja';
-import Box from '../components/Box';
+
 
 
 export default function Reparacion() {

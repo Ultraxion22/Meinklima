@@ -7,7 +7,6 @@ import BoxButton from '../components/BoxButton';
 import Simple2 from '../components/Simple2';
 import Texto2 from '../components/Texto2';
 import Section2 from '../components/Section2';
-import Navbar2 from '../components/Navbar2';
 import "semantic-ui-css/semantic.min.css";
 import "react-multi-carousel/lib/styles.css";
 
@@ -17,9 +16,11 @@ export default function Home() {
     return (
             <div className="animate__animated animate__fadeIn">
                 <Texto />
-                <Section>
-                    <Simple/>
-                </Section>
+                <div className="m-lg-4">
+                    <Section>
+                        <Simple />
+                    </Section>
+                </div>
                 <Franja h1 = "SERVICIOS DE CALEFACCIÓN"
                     class ="w-50 franja-h1" />
                 <div className = "row d-flex justify-content-center ms-4 me-1 mt-5">

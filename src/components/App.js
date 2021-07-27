@@ -10,7 +10,8 @@ import {Animated} from "react-animated-css";
 import Instalacion from '../views/Instalacion';
 import Mantenimiento from '../views/Mantenimiento'
 import Reparacion from '../views/Reparacion';
-import Navbar2 from '../components/Navbar2';
+import Proyecto from '../views/Proyecto'
+
 
 
 
@@ -28,6 +29,7 @@ function App() {
                         <Route path="/instalaciones" exact component={Instalacion}></Route>
                         <Route path="/mantenimiento" exact component={Mantenimiento}></Route>
                         <Route path="/reparaciones" exact component={Reparacion}></Route>
+                        <Route path="/proyectos" exact component={Proyecto}></Route>
                     </Switch>
                     <Fotter />
 
