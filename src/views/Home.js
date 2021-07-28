@@ -28,6 +28,7 @@ export default function Home() {
                         <BoxButton b1 = "INSTALACIÓN"
                             button = "PRESIONA AQUI"
                             class = "box-p"
+                            ruta ="/instalaciones"
                             />
                             
                     </div>
@@ -35,6 +36,7 @@ export default function Home() {
                         <BoxButton b1 = "MANTENIMIENTO PREVENTIVO"
                             button = "PRESIONA AQUI"
                             class = "box-p2"
+                            ruta = "/mantenimiento"
                         />
 
                     </div>
@@ -42,12 +44,14 @@ export default function Home() {
                         <BoxButton b1 = "REPARACIÓN"
                             button = "PRESIONA AQUI"
                             class = "box-p"
+                            ruta = "/reparaciones"
                         />
                     </div>
                     <div className = "col-lg-3 col-md-6 col-sm-12 card-container">
                         <BoxButton b1 = "PROYECTOS"
                             button = "PRESIONA AQUI"
                             class = "box-p"
+                            ruta = "/proyectos"
                         />
                     </div>
                 </div>

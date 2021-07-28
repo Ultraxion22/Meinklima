@@ -11,15 +11,14 @@ function Fotter() {
                     <h2 className = "heading-fotter">CONTACTO</h2>
                     <div className = "w-100" style={{marginBottom:"5px"}}>
                     <i className="fas fa-phone" style={{marginRight:"5px",color:"#D60238"}}></i>
-                    <span className="p-fotter">+569 22154721</span>
+                    <a href="tel:+569%202215%204721"><span className="p-fotter">+569 22154721</span></a>
                     </div>
                     <div className = "w-100" style={{marginBottom:"20px"}}>
                     <i className="fas fa-envelope" style={{marginRight:"5px",color:"#D60238"}}></i>
-                    <span className="p-fotter">contacto@meinklima.cl</span>
+                    <a href="mailto:contacto@meinklima.cl"><span className="p-fotter">contacto@meinklima.cl</span></a>
                     </div>
-                    <i className="fab fa-facebook-f fa-3x" style={{color:"#3b5998",marginRight:"10px"}}></i>
-                    <i class="fab fa-whatsapp fa-3x" style={{color:"#25d366",marginRight:"10px"}}></i>
-                    <i class="fab fa-linkedin-in fa-3x" style={{color:"#0082ca",marginRight:"10px"}}></i>
+                    <a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica"><i class="fab fa-whatsapp fa-3x" style={{color:"#25d366",marginRight:"10px"}}></i></a>
+                    
                     </div>
                 </div>
                 <div className = "col-lg-2 col-6 my-2"> 

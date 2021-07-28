@@ -460,3 +460,13 @@ body{
     width: 300px;
     height: 45px;
 }
+.link-box{
+    font-family: "Roboto",Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #D60238;
+}
+.link-box:hover{
+    color: #F9F9F9;
+}
+    
