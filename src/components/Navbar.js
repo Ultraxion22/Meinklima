@@ -30,10 +30,10 @@ function Navbar(props) {
                       </ul>
                     </li>
                     <li className="nav-item px-3 py-2">
-                        <Link className="navbar-p nav-link" to="/catalogo">Catalogo</Link>
+                        <Link className=" disabled navbar-p nav-link" to="/catalogo">Catalogo</Link>
                     </li>
                     <li className="nav-item px-3 py-2">
-                        <Link className="navbar-p nav-link" to="/">Blog</Link>
+                        <Link className=" disabled navbar-p nav-link" to="/">Blog</Link>
                     </li>
                   </ul>
                 </div>
