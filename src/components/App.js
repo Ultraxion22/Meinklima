@@ -32,6 +32,7 @@ function App() {
                         <Route path="/proyectos" exact component={Proyecto}></Route>
                         <Route path="/catalogo" exact component={Catalogo}></Route>
                     </Switch>
+                    <Fotter />
         
 
                     
