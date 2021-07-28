@@ -29,12 +29,12 @@ function Navbar(props) {
                         <li className="mx-3 my-2"><Link className="navbar-p dropdown-item" to="/proyectos">Proyectos</Link></li>
                       </ul>
                     </li>
-                    <li className="nav-item px-3 py-2">
+                    {/* <li className="nav-item px-3 py-2">
                         <Link className=" disabled navbar-p nav-link" to="/catalogo">Catalogo</Link>
                     </li>
                     <li className="nav-item px-3 py-2">
                         <Link className=" disabled navbar-p nav-link" to="/">Blog</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
                 <div className="container-fluid  contenedor-boton d-flex justify-content-center">
