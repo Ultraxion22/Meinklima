@@ -1,5 +1,4 @@
 import React from 'react';
-import BoxFlip from '../components/BoxFlip';
 import Franja from '../components/Franja';
 import Box from '../components/Box';
 
@@ -8,10 +7,10 @@ export default function Instalacion() {
     return (
         <div className="animate__animated animate__fadeIn">
             <div className = "row d-flex justify-content-center mt-3 mb-3 me-lg-5 mx-3">
-                    <div className = "col-lg-3 col-md-12 my-auto">
-                        <img alt ="imagen1" className = "front-img d-none d-lg-block" src= "https://i.ibb.co/S5sKL8S/CALDERA-MURAL-MIXTA-ECO-CONDENS-32-37-1.jpg" alt="CALDERA-MURAL-MIXTA-ECO-CONDENS-32-37-1"/>
+                    <div className = "col-lg-3 col-md-4 mx-5 my-auto">
+                        <img alt ="imagen1 img-fluid" className = "front-img d-none d-xl-block" src= "https://i.ibb.co/S5sKL8S/CALDERA-MURAL-MIXTA-ECO-CONDENS-32-37-1.jpg" alt="CALDERA-MURAL-MIXTA-ECO-CONDENS-32-37-1"/>
                     </div>
-                    <div className = "col-lg-3 col-md-6 col-sm-6 txt-container">
+                    <div className = "col-lg-3 col-md-6 col-sm-6 mx-5 txt-container">
                         <p className = "front-p1">SERVICIO DE INSTALACIÓN</p>
                         <h1 className = "front-h1">¿NECESITAS INSTALAR UNA CALDERA EN TU HOGAR?</h1>
                         <p className= "front-p2">Instalamos la caldera más apropiada para las necesidades de tu hogar. Puedes agendar una visita técnica gratuita con nosotros.</p>

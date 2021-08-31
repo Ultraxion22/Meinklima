@@ -1,5 +1,5 @@
 import React from "react";
-import { Media } from "react-bootstrap";
+
 
 const Section2 = ({ children }) => {
   return (

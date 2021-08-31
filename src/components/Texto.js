@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Texto(props) {
+function Texto() {
     return (
             <div>
-                <div className = "row d-flex justify-content-center m-3 mt-3 mb-3 ms-lg-5 py-lg-4 ps-lg-5">
+                <div className = "row d-flex justify-content-center m-5 mt-1 mb-3 ms-lg-5 ps-lg-5">
                     <div className = "col-lg-4 col-md-6 col-sm-6 txt-container">
                         <p className = "front-p1">PREOCUPADOS POR TU CALEFACCIÓN</p>
                         <h1 className = "front-h1">SERVICIOS DE CALEFACCIÓN A LA MEDIDA DE TU HOGAR</h1>

@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import Fotter from './Fotter';
 import Home from '../views/Home'
-import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Servicios from '../views/Servicios';
 import "semantic-ui-css/semantic.min.css";
 import "react-multi-carousel/lib/styles.css";
@@ -12,9 +12,8 @@ import Mantenimiento from '../views/Mantenimiento'
 import Reparacion from '../views/Reparacion';
 import Proyecto from '../views/Proyecto'
 import Catalogo from '../views/Catalogo'
-
-
-
+import Franja2 from './Franja2';
+import Franja3 from './Franja3';
 
 
 function App() {
@@ -23,6 +22,7 @@ function App() {
             <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
                 <div>
                     <Navbar />
+                    <Franja2 />
                     <Switch>
                         <Route path="/" exact component={Home}></Route>
                         <Route path="/servicios" exact component={Servicios}></Route>
@@ -33,10 +33,6 @@ function App() {
                         <Route path="/catalogo" exact component={Catalogo}></Route>
                     </Switch>
                     <Fotter />
-        
-
-                    
-
                 </div>
             </Animated>
         </BrowserRouter>
