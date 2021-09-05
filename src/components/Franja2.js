@@ -14,7 +14,7 @@ export default function Franja2() {
                 <p className="btn-p">VER CATEGORIAS</p>
                 </button>
                 <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarNavAltMarkup">
-                <div className="w-50 d-lg-flex justify-content-center">
+                <div className="w-75 d-lg-flex justify-content-center">
                 <ul className="navbar-nav"> 
                     <li className="nav-item p-3">
                         <Link className="nav-categorias2" to="/">Calderas</Link>
