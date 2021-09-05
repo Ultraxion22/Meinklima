@@ -30,16 +30,27 @@ function Navbar() {
                       </ul>
                     </li>
                     <li className="nav-item px-3 py-2">
-                        <Link className="navbar-p nav-link" to="/catalogo">Catalogo</Link>
+                        <Link className="navbar-p nav-link" to="/catalogo">Catálogo</Link>
                     </li>
-                    {/*
                     <li className="nav-item px-3 py-2">
-                        <Link className=" disabled navbar-p nav-link" to="/">Blog</Link>
-                    </li> */}
+                        <Link className="navbar-p nav-link" to="/">Tutoriales</Link>
+                    </li>
+                    <li className="nav-item px-3 py-2">
+                        <Link className="navbar-p nav-link" to="/">Noticias</Link>
+                    </li>
+                    <li className="nav-item px-3 py-2">
+                        <Link className="navbar-p nav-link" to="/">Nosotros</Link>
+                    </li>
                   </ul>
-                </div>
-                <div className="container-fluid  contenedor-boton d-flex justify-content-center">
-                <button type="button" className="btn btn-danger btn-color"><a className="a" href="tel:+569%202215%204721"><i className="fas fa-phone"></i><span className="p-btn"> LLAMANOS AHORA</span></a></button>
+                  <div class="nav-button">
+                    <div class="d-flex flex-row bd-highlight mb-2">
+                      <div class="p-3 bd-highlight" id="btn-nav" style={{backgroundColor:"rgb(214, 2, 56)"}}><Link className="link-button navbar-p dropdown-item" to="/mantenimiento">Llamar Ahora</Link></div>
+                      <div class="p-3 bd-highlight" id="btn-nav" style={{backgroundColor:"#282828"}}><Link className="link-button navbar-p dropdown-item" to="/mantenimiento">Acceso Técnicos</Link></div>
+                    </div>
+                  </div>
+                  <div>
+                    <p className="franja-p m-1 fw-bold" style={{color:"#232323", fontWeight: "600", paddingLeft: "10px"}}>Dolar USD: $775</p>
+                  </div>
                 </div>
               </div>
             </nav>

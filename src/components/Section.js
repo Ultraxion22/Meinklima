@@ -4,7 +4,7 @@ const Section = ({ children }) => {
   return (
     <section
       style={{
-        margin: "0px 10% 44px 10%"
+        margin: "0px 0% 10px 0%"
       }}
     >
       {children}

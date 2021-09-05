@@ -16,45 +16,25 @@ export default function Home() {
     return (
             <div className="animate__animated animate__fadeIn">
                 <Texto />
-                <div className="m-lg-4">
+                <div className="m-lg-1">
                     <Section>
                         <Simple />
                     </Section>
                 </div>
-                <Franja h1 = "SERVICIOS DE CALEFACCIÓN"
-                    class ="w-50 franja-h1" />
-                <div className = "row d-flex justify-content-center ms-4 me-1 mt-5">
-                    <div className = "col-lg-3 col-md-6 col-sm-12 card-container">
-                        <BoxButton b1 = "INSTALACIÓN"
-                            button = "PRESIONA AQUI"
-                            class = "box-p"
-                            ruta ="/instalaciones"
-                            />
-                            
+                <div class="container-fluid post-portada">
+                    <div class="row justify-content-md-center title-post">
+                        <h2>Lo que te ofrecemos a alcance de un click</h2>
                     </div>
-                    <div className = "col-lg-3 col-md-6 col-sm-12  card-container">
-                        <BoxButton b1 = "MANTENIMIENTO PREVENTIVO"
-                            button = "PRESIONA AQUI"
-                            class = "box-p2"
-                            ruta = "/mantenimiento"
-                        />
-
-                    </div>
-                    <div className = "col-lg-3 col-md-6 col-sm-12 card-container">
-                        <BoxButton b1 = "REPARACIÓN"
-                            button = "PRESIONA AQUI"
-                            class = "box-p"
-                            ruta = "/reparaciones"
-                        />
-                    </div>
-                    <div className = "col-lg-3 col-md-6 col-sm-12 card-container">
-                        <BoxButton b1 = "PROYECTOS"
-                            button = "PRESIONA AQUI"
-                            class = "box-p"
-                            ruta = "/proyectos"
-                        />
+                    <div class="row justify-content-md-center post">
+                        <div class="col col-md-6 posters">
+                            <h2>¿Quisieras adquirir un producto?</h2>
+                        </div>
+                        <div class="col col-md-6 posters" style={{backgroundColor:"#D60238"}}>
+                            <h2 style={{color:"#fff"}}>¿Necesitas asistencia técnica en tu hogar?</h2>
+                        </div>
                     </div>
                 </div>
+                
                 <div className="d-flex justify-content-center">
                     <button className="btn btn-danger btn-box"><a className="a" href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica"><p className = "p-btn">QUIERO SOLICITAR UN SERVICIO</p></a></button>
                 </div>
