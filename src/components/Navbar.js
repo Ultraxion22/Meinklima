@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import './styles/Navbar.css'
 
 
 function Navbar() {
     return(
       <div>
-        <div className="contenedor-navbar py-2">
+        <div>
             <nav className="navbar navbar-expand-lg navbar-dark">
-              <div className="container-fluid">
+              <div className="container-fluid px-5">
                 <Link to="/"><img className="nav-img" src="https://i.ibb.co/Hh2Ps8S/Mein-Klima-Transparente.png" alt="logo-meinklima" /></Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
