@@ -24,8 +24,10 @@ export default function Home() {
                     <div class="row p-5 pt-0 justify-content-center">
                         <div class="col-lg-4 posters">
                             <h2 className="p-5 pb-3 m-0 d-lg-block d-md-block d-none">¿Quisieras adquirir un producto?</h2>
-                            <h1 className="p-5 pt-3 m-0 d-lg-block d-none">Lo que te ofrecemos a alcance de un click
-                            Lo que te ofrecemos a alcance de un click</h1>
+                            <h1 className="p-5 pt-3 m-0 d-lg-block d-none">Lo que te ofrecemos a alcance de un click</h1>
+                          
+                            <h1>Lo que te ofrecemos a alcance de un click</h1>
+                            <h1>Lo que te ofrecemos a alcance de un click</h1>
                         </div>
                         <div class="col-lg-4 p-3 posters" style={{backgroundColor:"#D60238"}}>
                             <h2 className="pt-5 pe-5 ps-5"style={{color:"#fff"}}>¿Necesitas asistencia técnica en tu hogar?</h2>
