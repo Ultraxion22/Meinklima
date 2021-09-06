@@ -10,6 +10,7 @@
     "anime.css": "^1.0.1",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
+    "install": "^0.13.0",
     "mdb-ui-kit": "^3.8.1",
     "react": "^17.0.2",
     "react-animated-css": "^1.2.1",

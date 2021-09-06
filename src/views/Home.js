@@ -16,6 +16,7 @@ export default function Home() {
     return (
             <div className="animate__animated animate__fadeIn">
                 <Texto />
+                <h1>npm Hola </h1>
             </div>
     );
 }
