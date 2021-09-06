@@ -1,19 +1,20 @@
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
 
 .a{
     color: white;
 }
 .dropdown-item:active{
     background-color: whitesmoke;
-
 }
 
 .a:hover{
     color: white;
 }
 
-#__next {
-    padding: 20px;
-}
+
 .image-item {
     padding: 0px 0px 0px 30px;
 }
@@ -36,44 +37,6 @@ body{
 .card-container{
     width: 244px;
     margin: 10px 20px 10px 0px;
-}
-
-
-.contenedor-categorias{
-    padding: 5px 0% 0 0%; 
-}
-
-@media (max-width:900px){
-    .contenedor-categorias{
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 100%;
-    }
-}
-
-@media (max-width:500px){
-    .contenedor-boton .contenedor-categorias{
-        padding-left: 10%;
-        padding-right: 10%;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        width: 100%;
-    }
-}
-
-
-/*Contenedores*/
-
-
-
-/*Categorias*/
-
-.nav-categorias{
-    text-decoration: none;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: inline-flex;
 }
 
 .nav-categorias li a{
@@ -122,8 +85,6 @@ body{
 /* Portada */
 
 .title-post{
-    padding-top: 70px;
-    margin-bottom: -50px;
     text-align: center;
 }
 
@@ -138,11 +99,8 @@ body{
 }
 
 .post-portada{
-    margin-top: -5px;
-    background-color: #272727;
-    width: 100%;
-    height: 800px;
-    text-align: center;  
+    background-color: #272727;  
+    height: auto;
 }
 
 .post{
@@ -152,10 +110,6 @@ body{
 
 .posters{
     background-color: #FFF;
-    height: 400px;
-    width: 500px;
-    margin-top: 150px;
-    padding: 50px 0px 0px 0px;
 }
 
 .posters h2{
@@ -177,6 +131,7 @@ body{
     padding: 0px 5% 0 5%;
     text-align: center;
 }
+
 
 /* services */
 
@@ -203,9 +158,7 @@ body{
     font-size: 18px;
     margin-bottom: 10px;
 }
-.txt-container{
-    margin-top: 5.5%;
-}
+
 
 .front-p2{
     font-size: 18px;
