@@ -12,8 +12,7 @@ import Mantenimiento from '../views/Mantenimiento'
 import Reparacion from '../views/Reparacion';
 import Proyecto from '../views/Proyecto'
 import Catalogo from '../views/Catalogo'
-import Franja2 from './Franja2';
-import Franja3 from './Franja3';
+import NavbarCatalogo from './NavbarCatalogo';
 
 
 function App() {
@@ -22,7 +21,7 @@ function App() {
             <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
                 <div>
                     <Navbar />
-                    <Franja2 />
+                    <NavbarCatalogo />
                     <Switch>
                         <Route path="/" exact component={Home}></Route>
                         <Route path="/servicios" exact component={Servicios}></Route>

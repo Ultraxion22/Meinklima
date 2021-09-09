@@ -1,0 +1,48 @@
+.nav-navbarCatalogo{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.nav-navbarCatalogo li a{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.nav-navbarCatalogo li a:hover{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#buttons-navbarCatalogo{
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#buttons-navbarCatalogo{
+    color: #FFF;
+    font-size: 14px;
+}
+
+.toggler-navbarCatalogo{
+    border-color: transparent !important;
+    color: transparent !important;
+}   
+.toggler-navbarCatalogo::selection{
+    color: white !important;
+}   
+
+.btn-navbarCatalogo p{
+    color: #F9F9F9;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+} 

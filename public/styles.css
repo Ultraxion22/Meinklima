@@ -25,12 +25,7 @@ body{
 .btn{
     height: 36px;
 }
-.nav-categorias2{
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-}
+
 
 /*Contenedores*/
 
@@ -38,102 +33,6 @@ body{
     width: 244px;
     margin: 10px 20px 10px 0px;
 }
-
-.nav-categorias li a{
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-}
-
-.nav-categorias li a:hover{
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-}
-
-#buttons{
-    background-color: transparent;
-    border: none;
-    color: #FFF;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-}
-
-#buttons i{
-    color: #FFF;
-    font-size: 14px;
-}
-
-.btn-categorias{
-    border-color: transparent !important;
-    color: transparent !important;
-}   
-.btn-categorias::selection{
-    color: white !important;
-}   
-
-.btn-p{
-    color: #F9F9F9;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-} 
-/*Categorias*/
-
-/* Portada */
-
-.title-post{
-    text-align: center;
-}
-
-.title-post h2{
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 42px;
-}
-.left-portada{
-    background-color: #272727;
-}
-
-.post-portada{
-    background-color: #272727;  
-    height: auto;
-}
-
-.post{
-    width: 100%;
-    height: 500px;
-}
-
-.posters{
-    background-color: #FFF;
-}
-
-.posters h2{
-    color: #272727;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-    text-align: center;
-}
-
-/* Portada */
-
-/*services*/
-
-.services{
-    background-color: black;
-    width: 100%;
-    height: auto;
-    padding: 0px 5% 0 5%;
-    text-align: center;
-}
-
-
-/* services */
 
 /*Front Text*/
 .front-img{
@@ -448,63 +347,3 @@ body{
 }
 /*Texto2*/
 
-/*Fotter*/
-.container-fotter{
-    background-color: #5F6062;
-    height: auto;
-    width: auto;
-}
-.container-copy{
-    background-color: #43464c;
-    height: auto;
-    width: auto;
-
-}
-.p-copy{
-    color: rgba(255,255,255,.32);
-    font-size: 13px;
-    font-weight: 300;
-    padding: 15px 0 15px 0;
-    text-align: center;
-}
-.heading-fotter{
-    color: #FFF;
-    font-family: "Roboto",Sans-serif;
-    font-weight: 400;
-    text-align: justify;
-}
-.p-fotter{
-    color: rgba(255,255,255,.45);
-    font-size: 14px;
-    font-weight: 300;
-    font-family: "Roboto",Sans-serif !important;
-    text-align: justify;
-}
-
-.principal{
-    width: 1400px;
-    background-color:white;
-    height: 1000px;
-}
-.categorias{
-    width: 300px;
-    background-color: aqua;
-}
-.icon-catalogo{
-    width: 50px;
-    height: 50px;
-}
-.btn-cat{
-    width: 300px;
-    height: 45px;
-}
-.link-box{
-    font-family: "Roboto",Sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    color: #D60238;
-}
-.link-box:hover{
-    color: #F9F9F9;
-}
-    

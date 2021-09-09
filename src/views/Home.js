@@ -1,5 +1,8 @@
 import React from 'react';
-import Texto from '../components/Texto';
+import Carrusel from '../components/Carrusel';
+import GridFour from '../components/GridFour';
+import CarruselEmpresas from '../components/CarruselEmpresas';
+import SectionFour from '../components/SectionFour';
 import Simple from '../components/Simple';
 import Section from '../components/Section';
 import Franja from '../components/Franja';
@@ -15,8 +18,11 @@ import "react-multi-carousel/lib/styles.css";
 export default function Home() {
     return (
             <div className="animate__animated animate__fadeIn">
-                <Texto />
-                <h1>npm Hola </h1>
+                <Carrusel />
+                <CarruselEmpresas />
+                <SectionFour />
+                <GridFour />
+                
             </div>
     );
 }
