@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Axios from "axios";
-import Card from '../components/Card'
-import Franja from '../components/Franja'
-import Button from '../components/Button';
+import Card from '../components/Card';
 
 
 

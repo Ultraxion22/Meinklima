@@ -7,7 +7,7 @@ function Navbar() {
     return(
       <div>
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark">
+            <nav className="navbar navbar-expand-xl navbar-dark">
               <div className="container-fluid px-5">
                 <Link to="/"><img className="nav-img" src="https://i.ibb.co/Hh2Ps8S/Mein-Klima-Transparente.png" alt="logo-meinklima" /></Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

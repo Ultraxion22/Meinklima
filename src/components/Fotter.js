@@ -18,8 +18,9 @@ function Fotter() {
                     <i className="fas fa-envelope" style={{marginRight:"5px",color:"#D60238"}}></i>
                     <a href="mailto:contacto@meinklima.cl"><span className="p-fotter">contacto@meinklima.cl</span></a>
                     </div>
+                    <div className="d-flex justify-content-center">
                     <a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica"><i class="fab fa-whatsapp fa-3x" style={{color:"#25d366",marginRight:"10px"}}></i></a>
-                    
+                    </div>
                     </div>
                 </div>
                 <div className = "col-lg-2 col-6 my-2"> 
