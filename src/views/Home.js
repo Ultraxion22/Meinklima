@@ -1,7 +1,6 @@
 import React from 'react';
 import Carrusel from '../components/Carrusel';
 import SectionFour from '../components/SectionFour';
-import "semantic-ui-css/semantic.min.css";
 import "react-multi-carousel/lib/styles.css";
 import MultipleItems from '../components/MultipleItems';
 import Texto from '../components/Texto';

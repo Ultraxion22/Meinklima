@@ -4,7 +4,6 @@ import Fotter from './Fotter';
 import Home from '../views/Home'
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Servicios from '../views/Servicios';
-import "semantic-ui-css/semantic.min.css";
 import "react-multi-carousel/lib/styles.css";
 import {Animated} from "react-animated-css";
 import Instalacion from '../views/Instalacion';
@@ -13,7 +12,7 @@ import Reparacion from '../views/Reparacion';
 import Proyecto from '../views/Proyecto'
 import Catalogo from '../views/Catalogo'
 import NavbarCatalogo from './NavbarCatalogo';
-
+import Detalle from '../views/Detalle';
 
 function App() {
     return (
@@ -30,6 +29,7 @@ function App() {
                         <Route path="/reparaciones" exact component={Reparacion}></Route>
                         <Route path="/proyectos" exact component={Proyecto}></Route>
                         <Route path="/catalogo" exact component={Catalogo}></Route>
+                        <Route path="/product/:idef" exact component={Detalle}></Route>
                     </Switch>
                     <Fotter />
                 </div>

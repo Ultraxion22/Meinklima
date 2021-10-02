@@ -4,15 +4,12 @@ import './styles/NavbarCatalogo.css';
 
 export default function Franja2() {
 
-    
-	
-
     return (
     <div>
         <nav class="navbar navbar-expand-lg p-0">
             <div class="container-fluid py-4" style={{backgroundColor:"#D60238"}}>
-                <button class="navbar-toggler mx-auto toggler-navbarCatalogo" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <p className="btn-navbarCatalogo">VER CATEGORIAS</p>
+                <button id="buttons-navbarCatalogo" class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                VER CATEGORIAS
                 </button>
                 <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarNavAltMarkup">
                 <div className="w-75 d-lg-flex justify-content-center">
@@ -41,7 +38,7 @@ export default function Franja2() {
                   </ul>
                 </div>
                 <div className="m-3">
-                    <button id="buttons-navbarCatalogo"><i class="fas fa-shopping-cart"></i> MI CARRITO</button>
+                    <button id="buttons-navbarCatalogo2"><i class="fas fa-shopping-cart"></i> MI CARRITO</button>
                 </div>
                 </div>
             </div>

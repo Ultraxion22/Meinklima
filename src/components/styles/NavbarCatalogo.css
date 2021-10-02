@@ -2,9 +2,12 @@
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 16px;
+    text-decoration: none;
 }
-
+.nav-navbarCatalogo:hover{
+    color: #fff;
+}
 .nav-navbarCatalogo li a{
     color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -19,7 +22,7 @@
     font-size: 14px;
 }
 
-#buttons-navbarCatalogo{
+#buttons-navbarCatalogo2{
     background-color: transparent;
     border: none;
     color: #FFF;
@@ -30,19 +33,14 @@
 
 #buttons-navbarCatalogo{
     color: #FFF;
-    font-size: 14px;
+    font-size: 18px;
 }
-
 .toggler-navbarCatalogo{
     border-color: transparent !important;
-    color: transparent !important;
 }   
 .toggler-navbarCatalogo::selection{
-    color: white !important;
+    color: transparent !important;
+    border: none;
 }   
 
-.btn-navbarCatalogo p{
-    color: #F9F9F9;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-} 
+

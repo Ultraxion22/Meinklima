@@ -6,7 +6,7 @@ function SectionFour() {
     return (
         <div className="section-four d-flex justify-content-center ">
             <div>
-                <div className="row d-flex justify-content-center mt-lg-5">
+                <div className="row d-flex justify-content-center my-lg-4">
                     <div className="recuadro col-lg-3 col-9 my-2 mx-3 p-4">
                         <div className="p-4">
                             <h2 className="titulo">PRIMER MANTENIMIENTO PREVENTIVO GRATIS</h2>

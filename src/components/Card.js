@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Button from './Boton';
 export default function Card (props) {
     return (
         <div class="col-lg-3 my-2">
@@ -12,7 +12,8 @@ export default function Card (props) {
                     <h5 class="card-text">Caudal: {props.caudal} </h5>
                     <p class="card-text">{props.desc}</p>
                     <div class="d-grid gap-2">
-                    <button class="btn btn-danger" type="button">COTIZAR</button>
+                    <a href={`/product/${props.ide}`}><button className="btn-news">SABER MAS</button></a>
+                     
                     </div>
                 </div>
             </div>

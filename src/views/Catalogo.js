@@ -15,11 +15,7 @@ export default function Catalogo() {
         });
     }, []);
 
-    const [pageNumber, setPageNumber] = useState(0);
-
-    const userPerPage = 10;
     function handleBtns(e){
-        console.log(e.target.value);
         setSearchTerm(e.target.value);
     }
     return (
@@ -60,7 +56,7 @@ export default function Catalogo() {
                     */}
 
                     <div className="w-50">
-                    <div class="input-group my-1">
+                    <div class="input-group my-1 m-5">
                         <input 
                         type="text" 
                         className="form-control" 
@@ -69,41 +65,43 @@ export default function Catalogo() {
                         />
                         <button class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-search"></i></button>
                     </div>
-                    <button value = "anwo" onClick={handleBtns} className=" btn btn-danger">ANWO</button>
-                    <button value = "renai" onClick={handleBtns} className=" btn btn-danger">RENAI</button>
-                    <button value = "baxi" onClick={handleBtns} className=" btn btn-danger">BAXI</button>
-                    <button value = "recal" onClick={handleBtns} className=" btn btn-danger">RECAL</button>
+                    <div className="d-flex justify-content-center m-3">
+                    <button value = "anwo" onClick={handleBtns} className="my-btn m-3">ANWO</button>
+                    <button value = "renai" onClick={handleBtns} className="my-btn m-3">RENAI</button>
+                    <button value = "baxi" onClick={handleBtns} className="my-btn m-3">BAXI</button>
+                    <button value = "recal" onClick={handleBtns} className="my-btn m-3">RECAL</button>
+                    </div>
                     </div>
                     <nav aria-label="Page navigation example">
                         <ul class="pagination justify-content-center">
                             <li class="page-item">
-                            <button value = "1" onClick={handleBtns} className=" btn btn-danger">anterior</button>
+                            <button value = "1" onClick={handleBtns} className="btn-news">anterior</button>
                             </li>
                             <li class="page-item">
-                            <button value = "2" onClick={handleBtns} className=" btn btn-danger">1</button></li>
+                            <button value = "2" onClick={handleBtns} className="btn-news">1</button></li>
                             <li class="page-item">
-                            <button value = "3" onClick={handleBtns} className=" btn btn-danger">2</button></li>
+                            <button value = "3" onClick={handleBtns} className="btn-news">2</button></li>
                             <li class="page-item">
-                            <button value = "4" onClick={handleBtns} className=" btn btn-danger">siguiente</button></li>
+                            <button value = "4" onClick={handleBtns} className="btn-news">siguiente</button></li>
                         </ul>
                     </nav>
                     <div className = "row my-5 mx-lg-5 px-lg-5">
-                    {nameList.filter((val)=>{
-                        if(searchTerm == "") {
-                            return val
-                        }else if(val.nombre.toLowerCase().includes(searchTerm.toLowerCase())){
-                            return val
-                        }
-                        }).map((val) => {
-                        return ( 
-                            <Card name = {val.nombre}
-                                desc = {val.categoria} 
-                                marca = {val.marca}
-                                tiro = {val.tiro} 
-                                caudal = {val.caudal}
-                            />
+                        {nameList.filter((val)=>{
+                            if(searchTerm == "") {
+                                return val
+                            }else if(val.nombre.toLowerCase().includes(searchTerm.toLowerCase())){
+                                return val
+                            }
+                            }).map((val) => {
+                            return (
+                                <Card name = {val.nombre}
+                                    desc = {val.categoria} 
+                                    marca = {val.marca}
+                                    tiro = {val.tiro} 
+                                    ide = {val.id}
+                                />
                             );
-                    })}
+                        })}
                     </div>
                 </div>
             </div>

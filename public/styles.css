@@ -1,4 +1,7 @@
-
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E5E5E5 !important;
+}
 
 .container-fluid{
     padding: 0;
@@ -21,10 +24,7 @@
     padding: 0px 0px 0px 30px;
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
-    background-color: #E5E5E5 !important;
-}
+
 .btn{
     height: 36px;
 }

@@ -14,8 +14,8 @@ export default class MultipleItems extends Component {
     const settings = {
       infinite: true,
       speed: 500,
-      slidesToShow: 6,
-      slidesToScroll: 6,
+      slidesToShow: 4,
+      slidesToScroll: 4,
       responsive: [
         {
           breakpoint: 1700,
