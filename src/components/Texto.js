@@ -10,7 +10,8 @@ function Texto(props) {
                 <div className="col-lg-5 col-12 mt-lg-4">
                     <div className="m-4 mt-lg-0">
                         <div className="m-lg-4 mt-lg-0">
-                            <img className="logo mb-4" src={meinklima}></img>
+                            <img className="logo mb-3" src={meinklima}></img>
+                            <h3 className="mb-3">{props.subtitulo}</h3>
                             <p className="text me-lg-3 mb-4">{props.texto}</p>
                             <div className="d-flex justify-content-center mt-lg-5 mb-5">
                             <Boton />
