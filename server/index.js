@@ -8,13 +8,12 @@ const db = mysql.createPool({
     host: "localhost",
     user: "root",
     password: "password",
-    database: "meinklimacatalogo"
+    database: "meinklima",
 });
 
 app.use(cors());
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
 
 app.get("/api/get", (req, res) => {
     const sqlSelect = "SELECT * FROM calderas";

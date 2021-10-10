@@ -1,4 +1,7 @@
 .container-carr{
-        width: 90%;
-        height: 800px;
+        width: 100%;
+        height: 100vh !important;
+}
+.video{
+        height: 500px;
 }

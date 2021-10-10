@@ -6,7 +6,7 @@ function Fotter() {
     return (
         <div>
         <div className="container-fotter d-flex justify-content-center">
-            <div className = "row px-5 py-5 d-flex justify-content-center w-75">
+            <div className = "row px-3 py-5 d-flex justify-content-center w-75">
                 <div className = "col-lg-2 col-12 mb-5 mt-2 d-flex justify-content-center mx-3">
                     <div>
                     <h2 className = "heading-fotter">CONTACTO</h2>
@@ -32,7 +32,7 @@ function Fotter() {
                 </div>
                 <div className = "col-lg-2 col-6 my-2">
                     <h4 className = "heading-fotter">INFORMACIÓN</h4>
-                    <a href="https://drive.google.com/file/d/1ZCpXnCBMYCjLLBrDKnBM8156nRQF5U0s/view?usp=sharing"><p className="p-fotter my-3">Términos y condiciones</p></a>
+                    <a tabindex="0" role="button" href="https://drive.google.com/file/d/1ZCpXnCBMYCjLLBrDKnBM8156nRQF5U0s/view?usp=sharing"><p className="p-fotter my-3">Términos y condiciones</p></a>
                     <a href="https://drive.google.com/file/d/1A6TBEEY6xaDrnK-u4eWdgSxKAgq3Ruww/view?usp=sharing"><p className="p-fotter my-3">Privacidad</p></a>
                     <a href="https://drive.google.com/file/d/1-K3PyU9Us8vuxrRIFUoi32at_31ABgao/view?usp=sharing"><p className="p-fotter my-3">Garantía</p></a>
                     <a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20soy%20t%C3%A9cnico"><p className="p-fotter my-3">Descuento técnico</p></a>
