@@ -13,10 +13,24 @@
     font-size: 16px;
     font-weight: 300;
 }
+.div-boton{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .recuadro{
     position: relative;
     width: 300px;
     height: 420px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: white;
+}
+.container-section{
+
+}
+@media (max-width:900px){
+    .container-section{
+        width: 92vw;
+    }
 }

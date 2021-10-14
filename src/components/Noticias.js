@@ -7,11 +7,12 @@ export default function Button(props) {
 
     return (
         <div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center container-fluid">
             <h1 className="p-5 text-center titulo-news">Noticias Meinklima</h1>
             </div>
+            <div className="container">
             <div className="row d-flex justify-content-center">
-                <div className="col-lg-4 col-12 container-news m-3 p-5">
+                <div className="col-lg-4 col-12 container-news m-2 p-5">
                     <div className="d-flex justify-content-center">
                     <img className="img-news" src="https://mantencioncaldera.cl/wp-content/uploads/2019/04/hogar-en-Las-Condes-con-Instalacion-Calefaccio%CC%81n-Central-Santiago.jpg"/>
                     </div>
@@ -23,7 +24,7 @@ export default function Button(props) {
                     </div>
                     
                 </div>
-                <div className="col-lg-4 col-12 container-news m-3 p-5">
+                <div className="col-lg-4 col-12 container-news m-2 p-5">
                     <div className="d-flex justify-content-center">
                     <img className="img-news" src="https://mantencioncaldera.cl/wp-content/uploads/2019/04/hogar-en-Las-Condes-con-Instalacion-Calefaccio%CC%81n-Central-Santiago.jpg"/>
                     </div>
@@ -38,7 +39,7 @@ export default function Button(props) {
                 
             </div>
             <div className="row d-flex justify-content-center mb-5">
-                <div className="col-lg-4 col-12 container-news m-3 p-5">
+                <div className="col-lg-4 col-12 container-news m-2 p-5">
                     <div className="d-flex justify-content-center">
                     <img className="img-news" src="https://mantencioncaldera.cl/wp-content/uploads/2019/04/hogar-en-Las-Condes-con-Instalacion-Calefaccio%CC%81n-Central-Santiago.jpg"/>
                     </div>
@@ -50,7 +51,7 @@ export default function Button(props) {
                     </div>
                     
                 </div>
-                <div className="col-lg-4 col-12 container-news m-3 p-5">
+                <div className="col-lg-4 col-12 container-news m-2 p-5">
                     <div className="d-flex justify-content-center">
                     <img className="img-news" src="https://mantencioncaldera.cl/wp-content/uploads/2019/04/hogar-en-Las-Condes-con-Instalacion-Calefaccio%CC%81n-Central-Santiago.jpg"/>
                     </div>
@@ -62,7 +63,7 @@ export default function Button(props) {
                     </div>
                     
                 </div>
-                
+            </div>
             </div>
         </div>
 );

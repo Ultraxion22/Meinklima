@@ -21,17 +21,16 @@ export default function Catalogo() {
     }
     return (
             <div>
-                <h1 className="m-5 mb-0 text-center titulo-news">PRODUCTOS DESTACADOS</h1> 
-                <CarruselCatalogo />
-                <div className="row d-flex justify-content-center">
-                    <div className="col-lg-2 m-3 main " style={{backgroundColor:"#fff"}}>
+                <div>
+                <div className="row d-flex justify-content-center m-0 p-0">
+                    <div className="col-lg-2 main " style={{backgroundColor:"#fff"}}>
                         <div className="d-flex justify-content-center p-3">
                             <h1 className="">FILTROS</h1>
                         </div>
                     </div>
-                    <div className="col-lg-9">
+                    <div className="col-lg-10">
                     <div className="d-flex justify-content-center">
-                        <div className="w-75">
+                        <div className="w-100">
                         <div class="input-group my-4">
                             <input 
                             type="text" 
@@ -57,17 +56,14 @@ export default function Catalogo() {
                                         desc = {val.categoria} 
                                         marca = {val.marca}
                                         ide = {val.id}
+                                        precio = {val.precio}
+                                        img = {val.imagen}
                                     />
                                 );
                             })}
-                            <Card />
-                            <Card />
-                            <Card />
-                            <Card />
-                            <Card />
-                            <Card />
                         </div>
                     </div>
+                </div>
                 </div>
                 
                         

@@ -6,6 +6,7 @@ export default class AdaptiveHeight extends Component {
   render() {
     var settings = {
       className: "container-carr",
+      arrows:false,
       dots: true,
       infinite: true,
       slidesToShow: 1,

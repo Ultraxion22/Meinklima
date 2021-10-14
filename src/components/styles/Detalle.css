@@ -11,3 +11,36 @@ body{
 .p-margin-detail{
     margin: 0;
 }
+.precio{
+    font-weight: 700;
+    font-size: 48px;
+    margin-left: -5px;
+}
+.tipo{
+    font-weight: 400;
+    font-size: 18px;
+}
+.marca{
+    font-weight: 400;
+    font-size: 18px;
+}
+.nombre-producto{
+    font-weight: 700;
+    font-size: 48px;
+}
+.iva{
+    font-size: 18px;
+    font-weight: 600;
+}
+.agregado{
+    font-size: 16px;
+    font-weight: 600;
+}
+.div-precio{
+    height: auto;
+}
+.img-card-catalogo{
+    height: 400px;
+    width: 300px;
+    object-fit: contain;
+}

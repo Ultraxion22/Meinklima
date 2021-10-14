@@ -1,6 +1,6 @@
 
 
-.container{
+.container-txt{
     background-color: white;
     width: 1285px;
     height: auto;
@@ -8,8 +8,8 @@
 }
 
 @media (max-width:900px){
-    .container{
-        width: 90vw;
+    .container-txt{
+        width: 92vw;
     }
 }
 .img-text{

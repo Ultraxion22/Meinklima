@@ -28,6 +28,11 @@ export default function Detalle(props){
         });
     }, []);
 
+    function dividir(descr){
+        var caracteristicas = descr.split(",");
+        return caracteristicas;
+    }
+
     return(
         <div className="main-div d-flex justify-content-center">
             <div className = "row my-5 mx-lg-5 px-lg-5 w-75">
@@ -38,21 +43,39 @@ export default function Detalle(props){
                                 return val
                             }
                             }).map((val) => {
+                            if(val.descripcion != null){
+                            let desc = val.descripcion;
+                            var caracteristicas = dividir(desc);
+                            }
                             return (
                                 <div>
                                 <div className="row d-flex justify-content-center main" style={{backgroundColor:"#fff"}}>
                                     <div className="col-xl-5 col-lg-12 col-md-12 col-12 my-auto">
-                                        <img className="" src="https://i.ibb.co/HXc9ndH/Navien-aquaplus-fondo.png"></img>
+                                        <img className="" src={val.imagen}></img>
                                     </div>
-                                    <div className="col-12 col-lg-5 m-3 my-lg-5 py-lg-5">
-                                        <h4>ANWO</h4>
-                                        <h1>CALDERA BAXI DUO-TEC 28</h1>
-                                        <h4>CALDERA MIXTA CONDENSACION</h4>
-                                        <p className="p-margin-detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                        <h1 className="m-3">1256USD + IVA</h1>
-                                        <h4 className="m-3 mt-0">INCLUYE INSTALACION</h4>
+                                    <div className="col-12 col-lg-5 m-3 my-lg-5 py-lg-5 px-lg-5">
+                                        <h2 className="marca mb-0">{val.marca}</h2>
+                                        <h1 className="nombre-producto">{val.nombre}</h1>
+                                        <h2 className="tipo mb-3">{val.categoria}</h2>
+                                        <ul>
+                                            <li className="p-margin-detail">{caracteristicas[0]}</li>
+                                            <li className="p-margin-detail">{caracteristicas[1]}</li>
+                                            <li className="p-margin-detail">{caracteristicas[2]}</li>
+                                            <li className="p-margin-detail">{caracteristicas[3]}</li>
+                                            <li className="p-margin-detail">{caracteristicas[5]}</li>
+                                            <li className="p-margin-detail">{caracteristicas[6]}</li>
+                                            <li className="p-margin-detail">{caracteristicas[7]}</li>
+                                            <li className="p-margin-detail">{caracteristicas[8]}</li>
+                                            <li className="p-margin-detail">{caracteristicas[9]}</li>
+                                            <li className="p-margin-detail">{caracteristicas[10]}</li>
+                                        </ul>
+                                        
+                                        <p className="precio mt-3 mb-0 d-inline">{val.precio}<p className="d-inline iva">USD + IVA incluido</p></p>
+                                    
+                                        <p className="mb-4 agregado mt-0">INCLUYE INSTALACION</p>
+                                        
                                         <div>
-                                            <a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a"><button className="my-btn me-3">COTIZAR</button></a>
+                                            <a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a"><button className="my-btn-detail me-3">COTIZAR</button></a>
                                             <a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a"><button className="my-btn2">MANUAL USUARIO</button></a>
                                         </div>
                                     

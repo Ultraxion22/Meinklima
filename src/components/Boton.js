@@ -8,7 +8,7 @@ export default function Button(props) {
 
     return (
         <div>
-            <button className="my-btn"> <a href={props.link}>SABER MAS</a></button>
+            <button className="my-btn"> <a href={props.link}>{props.texto}</a></button>
         </div>
 );
 
