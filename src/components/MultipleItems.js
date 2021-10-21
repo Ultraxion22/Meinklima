@@ -44,7 +44,7 @@ export default class MultipleItems extends Component {
       ]
     };
     return (
-      <div className="p-lg-5 p-5" style={{backgroundColor:"#E5E5E5"}} >
+      <div className="p-lg-5 mt-5 p-5" style={{backgroundColor:"#E5E5E5"}} >
         <div>
         <Slider {...settings}>
           <div className="d-flex justify-content-center divcarrusel">

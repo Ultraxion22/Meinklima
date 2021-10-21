@@ -5,3 +5,8 @@
 .video{
         height: 500px;
 }
+.img-carrusel{
+        height: 960px;
+        width: 100%;
+        object-fit: fill;
+}

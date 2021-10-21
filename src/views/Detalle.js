@@ -29,7 +29,7 @@ export default function Detalle(props){
     }, []);
 
     function dividir(descr){
-        var caracteristicas = descr.split(",");
+        var caracteristicas = descr.split(";");
         return caracteristicas;
     }
 
@@ -50,34 +50,40 @@ export default function Detalle(props){
                             return (
                                 <div>
                                 <div className="row d-flex justify-content-center main" style={{backgroundColor:"#fff"}}>
-                                    <div className="col-xl-5 col-lg-12 col-md-12 col-12 my-auto">
-                                        <img className="" src={val.imagen}></img>
+                                    <div className="col-xl-5 col-lg-12 col-md-12 col-12 my-auto d-flex justify-content-center">
+                                        <img className="img-detail img-fluid" src={val.imagen}></img>
                                     </div>
-                                    <div className="col-12 col-lg-5 m-3 my-lg-5 py-lg-5 px-lg-5">
+                                    <div className="col-xl-5 col-lg-12 col-md-12 col-12  m-3 my-lg-5 py-lg-5 px-lg-5">
                                         <h2 className="marca mb-0">{val.marca}</h2>
                                         <h1 className="nombre-producto">{val.nombre}</h1>
-                                        <h2 className="tipo mb-3">{val.categoria}</h2>
+                                        <h2 className="tipo">{val.categoria}</h2>
+                                        <div className="m-3 mb-2 ms-0">
+                                        <a class="show-more" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                            Ver mas
+                                        </a>
+                                        <div class="collapse" id="collapseExample">
+                                        <div>
                                         <ul>
-                                            <li className="p-margin-detail">{caracteristicas[0]}</li>
-                                            <li className="p-margin-detail">{caracteristicas[1]}</li>
-                                            <li className="p-margin-detail">{caracteristicas[2]}</li>
-                                            <li className="p-margin-detail">{caracteristicas[3]}</li>
-                                            <li className="p-margin-detail">{caracteristicas[5]}</li>
-                                            <li className="p-margin-detail">{caracteristicas[6]}</li>
-                                            <li className="p-margin-detail">{caracteristicas[7]}</li>
-                                            <li className="p-margin-detail">{caracteristicas[8]}</li>
-                                            <li className="p-margin-detail">{caracteristicas[9]}</li>
-                                            <li className="p-margin-detail">{caracteristicas[10]}</li>
+                                        {caracteristicas.map((element)=>{
+                                                return(
+                                                    <li className="m-2  p-margin-detail">{element}</li>
+                                                );
+                                            })}
                                         </ul>
-                                        
-                                        <p className="precio mt-3 mb-0 d-inline">{val.precio}<p className="d-inline iva">USD + IVA incluido</p></p>
-                                    
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <p className="precio mb-0 d-inline">$416.000</p>
+                                        <p className="d-inline iva"> IVA incluido</p>
                                         <p className="mb-4 agregado mt-0">INCLUYE INSTALACION</p>
                                         
-                                        <div>
-                                            <a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a"><button className="my-btn-detail me-3">COTIZAR</button></a>
-                                            <a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a"><button className="my-btn2">MANUAL USUARIO</button></a>
+                                        <div className="d-flex d-lg-inline justify-content-center">
+                                            <a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a"><button className="my-btn me-lg-3">COTIZAR</button></a>
                                         </div>
+                                        <div className="d-flex d-lg-inline justify-content-center mt-0">
+                                            <a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a"><button className="my-btn2 mt-0">MANUAL DE USUARIO</button></a>
+                                        </div>
+                                        
                                     
                                     </div>
                                 </div>

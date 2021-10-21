@@ -23,11 +23,7 @@ export default function Catalogo() {
             <div>
                 <div>
                 <div className="row d-flex justify-content-center m-0 p-0">
-                    <div className="col-lg-2 main " style={{backgroundColor:"#fff"}}>
-                        <div className="d-flex justify-content-center p-3">
-                            <h1 className="">FILTROS</h1>
-                        </div>
-                    </div>
+                    
                     <div className="col-lg-10">
                     <div className="d-flex justify-content-center">
                         <div className="w-100">
