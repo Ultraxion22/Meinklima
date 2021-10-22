@@ -12,7 +12,7 @@ export default function Card (props) {
                 <div class="card-body">
                     <h2 class="card-title">{props.name}</h2>
                     <h2 class="card-marca">Marca: {props.marca} </h2>
-                    <p class="card-price">Precio Lista: $461.000 + IVA incluido</p>
+                    <p class="card-price">Precio Lista: {props.precio} + IVA incluido</p>
                     <div class="d-grid gap-2">
                     <a href={`/product/${props.ide}`}><button className="btn-news">SABER MAS</button></a>
                      

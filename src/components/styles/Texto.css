@@ -13,8 +13,9 @@
     }
 }
 .img-text{
-    height: 360px;
-    width: 550px;
+    height: auto;
+    width: 600px;
+    object-fit: contain;
 }
 @media (max-width:900px){
     .img-text{
@@ -36,6 +37,9 @@
     font-size: 36px;
     font-weight: 700;
     color: #D60238;
-
-
+}
+.img-text3{
+    height: auto;
+    width: 800px;
+    object-fit: contain;
 }

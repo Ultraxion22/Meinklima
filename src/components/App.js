@@ -13,6 +13,10 @@ import Proyecto from '../views/Proyecto'
 import Catalogo from '../views/Catalogo'
 import NavbarCatalogo from './NavbarCatalogo';
 import Detalle from '../views/Detalle';
+import CatalogoCalderas from '../views/CatalogoCalderas';
+import CatalogoAires from '../views/CatalogoAires';
+import CatalogoRadiadores from '../views/CatalogoRadiadores';
+import CatalogoCalefon from '../views/CatalogoCalefon';
 
 function App() {
     return (
@@ -29,6 +33,10 @@ function App() {
                         <Route path="/reparaciones" exact component={Reparacion}></Route>
                         <Route path="/proyectos" exact component={Proyecto}></Route>
                         <Route path="/catalogo" exact component={Catalogo}></Route>
+                        <Route path="/catalogo/calderas" exact component={CatalogoCalderas}></Route>
+                        <Route path="/catalogo/aires" exact component={CatalogoAires}></Route>
+                        <Route path="/catalogo/radiadores" exact component={CatalogoRadiadores}></Route>
+                        <Route path="/catalogo/calefon" exact component={CatalogoCalefon}></Route>
                         <Route path="/product/:idef" exact component={Detalle}></Route>
                     </Switch>
                     <Fotter />

@@ -26,23 +26,23 @@ export default class CarruselNext extends Component{
       <div>
         <Slider ref={c => (this.slider = c)} {...settings}>
           <div key={1}>
-            <h1 className="titulo-b mb-3">ETAPA 1</h1>
+            <h1 className="titulo-b mb-3">Visita técnica</h1>
             <p>{this.props.texto1}</p>
           </div>
           <div key={2}>
-          <h1 className="titulo-b mb-3">ETAPA 2</h1>
+          <h1 className="titulo-b mb-3">Ejecución</h1>
             <p>{this.props.texto2}</p>
           </div>
           <div key={3}>
-          <h1 className="titulo-b mb-3">ETAPA 3</h1>
+          <h1 className="titulo-b mb-3">Post-Servicio</h1>
             <p>{this.props.texto3}</p>
           </div>
         </Slider>
         <div style={{ textAlign: "center" }}>
-          <button className="my-btn m-3" onClick={this.previous}>
+          <button className="my-btn m-2" onClick={this.previous}>
             Anterior 
           </button>
-          <button className="my-btn m-3" onClick={this.next}>
+          <button className="my-btn m-2" onClick={this.next}>
             Siguiente
           </button>
         </div>

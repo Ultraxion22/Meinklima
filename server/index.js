@@ -22,6 +22,33 @@ app.get("/api/get", (req, res) => {
     });
 });
 
+app.get("/api/calderas", (req, res) => {
+    const sqlSelect = "SELECT * FROM calderas WHERE categoria='CALDERAS'";
+    db.query(sqlSelect, (err, result) => {
+        res.send(result);
+    });
+});
+app.get("/api/aires", (req, res) => {
+    const sqlSelect = "SELECT * FROM calderas WHERE categoria='AIRE ACONDICIONADO'";
+    db.query(sqlSelect, (err, result) => {
+        res.send(result);
+    });
+});
+app.get("/api/radiadores", (req, res) => {
+    const sqlSelect = "SELECT * FROM calderas WHERE categoria='RADIADOR'";
+    db.query(sqlSelect, (err, result) => {
+        res.send(result);
+    });
+});
+app.get("/api/calefon", (req, res) => {
+    const sqlSelect = "SELECT * FROM calderas WHERE categoria='CALEFON'";
+    db.query(sqlSelect, (err, result) => {
+        res.send(result);
+    });
+});
+
+
+
 
 app.listen(3001, () =>{
     console.log("running on port 3001");

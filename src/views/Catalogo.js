@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Axios from "axios";
 import Card from '../components/Card';
 import style from '../components/styles/Catalogo.css';
-import CarruselCatalogo from '../components/CarruselCatalogo';
+
 
 export default function Catalogo() {
 
@@ -15,10 +15,7 @@ export default function Catalogo() {
         setNameList(response.data)
         });
     }, []);
-
-    function handleBtns(e){
-        setSearchTerm(e.target.value);
-    }
+    
     return (
             <div>
                 <div>

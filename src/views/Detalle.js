@@ -73,7 +73,7 @@ export default function Detalle(props){
                                         </div>
                                         </div>
                                         </div>
-                                        <p className="precio mb-0 d-inline">$416.000</p>
+                                        <p className="precio mb-0 d-inline">{val.precio}</p>
                                         <p className="d-inline iva"> IVA incluido</p>
                                         <p className="mb-4 agregado mt-0">INCLUYE INSTALACION</p>
                                         
@@ -95,12 +95,28 @@ export default function Detalle(props){
                                 );
                         })}
                     <h1 className="p-5 text-center titulo-news">OTROS PRODUCTOS SIMILARES</h1>
-                                <div className = "row">
-                                    <Card/>
-                                    <Card/>
-                                    <Card/>
-                                    <Card/>
-                    </div>
+                        <div className = "row">
+                            <Card name="SPLIT MURO 12000 BTUH MURO VIRUS PROTECT ALTA EFICIENCIA B/CALOR R410A"
+                                marca="ANWO"
+                                precio="$481.600"
+                                img="https://i.ibb.co/YDGzMGp/EAA-9000-BTUH-MURO-VIRUS-PROTECT-ALTA-EFICIENCIA-B-CALOR-R410-A.jpg"
+                                ide="1"
+                                />
+                                
+                            <Card name="CALDERA BAXI LUNA DUO-TEC MP +1,50"
+                                marca="BAXI"
+                                precio="$3.273.000"
+                                img="https://i.ibb.co/vZX1gh4/Luna-Duotec-MP-1-50.jpg"
+                                ide="22"
+                                />
+
+                            <Card name="RADIADOR DOBLE DK 500/2600"
+                                marca="ANWO"
+                                precio="$327.700"
+                                img="https://i.ibb.co/4WHbBKd/RADIADOR-DOBLE-ANWO-DK-300-1000.jpg"
+                                ide="137"
+                            />
+                        </div>
                     </div>
                     
                     </div>

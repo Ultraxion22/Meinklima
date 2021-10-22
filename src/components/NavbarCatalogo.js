@@ -15,25 +15,16 @@ export default function Franja2() {
                 <div className="w-75 d-lg-flex justify-content-center">
                 <ul className="navbar-nav"> 
                     <li className="nav-item p-3">
-                        <Link className="nav-navbarCatalogo" to="/">Calderas</Link>
+                        <Link className="nav-navbarCatalogo" to="/catalogo/calderas">Calderas</Link>
                     </li>
                     <li className="nav-item p-3">
-                        <Link className="nav-navbarCatalogo" to="/catalogo">Aire Acondicionado</Link>
+                        <Link className="nav-navbarCatalogo" to="/catalogo/aires">Aire Acondicionado</Link>
                     </li>
                     <li className="nav-item p-3">
-                        <Link className="nav-navbarCatalogo" to="/">Calefont</Link>
+                        <Link className="nav-navbarCatalogo" to="/catalogo/radiadores">Radiadores</Link>
                     </li>
                     <li className="nav-item p-3">
-                        <Link className="nav-navbarCatalogo" to="/">Radiadores</Link>
-                    </li>
-                    <li className="nav-item p-3">
-                        <Link className="nav-navbarCatalogo" to="/">Termostatos</Link>
-                    </li>
-                    <li className="nav-item p-3">
-                        <Link className="nav-navbarCatalogo" to="/">Repuestos</Link>
-                    </li>
-                    <li className="nav-item p-3">
-                        <Link className="nav-navbarCatalogo" to="/">Otros productos</Link>
+                        <Link className="nav-navbarCatalogo" to="/catalogo/calefon">Calefón</Link>
                     </li>
                   </ul>
                 </div>
