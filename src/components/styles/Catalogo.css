@@ -12,13 +12,16 @@ a{
 .div-carrusel-catalogo{
     width: 95%;
 }
-.carrusel-catalogo{
-    height: 600px;
-    width: 100%;
-    background-color: #F9F9F9;
-}
+
 .img-carrusel-catalogo{
     height: 100%;
     width: 100%;
     object-fit: contain;
+}
+@media (max-width: 900px){
+    .carrusel-catalogo{
+        height: 300px;
+        width: 100%;
+        background-color: #F9F9F9;
+    }
 }
