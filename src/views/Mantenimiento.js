@@ -13,7 +13,9 @@ export default function Instalacion() {
                         <p className = "front-p1">SERVICIO DE MANTENIMIENTO</p>
                         <h1 className = "front-h1">REALIZAMOS EL MANTENIMIENTO PREVENTIVO ANUAL DE TU CALDERA</h1>
                         <p className= "front-p2">Cada año, el sistema de calefacción necesita mantenimiento preventivo de acuerdo a lo estipulado por el fabricante y las normativas vigentes. Nosotros realizamos todas las acciones para que tu caldera esté en óptimas condiciones</p>
-                        <button className="btn btn-danger btn-txt"><a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a"><p className="p-btn">AGENDA TU VISITA</p></a></button>
+                        <div className="d-flex justify-content-center">
+                        <button className="my-btn-txt"><a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a">AGENDA TU VISITA</a></button>
+                        </div>
                     </div>
             </div>
             <div className="franja row d-flex justify-content-center">
@@ -54,7 +56,7 @@ export default function Instalacion() {
                     />
                 </div>
                 <div className="d-flex justify-content-center">
-                    <button className="btn btn-danger btn-box"><a className="a" href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica"><p className = "p-btn">QUIERO SOLICITAR UN SERVICIO</p></a></button>
+                    <button className="my-btn-txt m-5"><a className="a" href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica">QUIERO SOLICITAR UN SERVICIO</a></button>
                 </div>
             </div>
         </div>

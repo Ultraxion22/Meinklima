@@ -11,7 +11,9 @@ export default function Reparacion() {
                         <p className = "front-p1">SERVICIO DE REPARACIÓN</p>
                         <h1 className = "front-h1">TE ENTENDEMOS, ES UN DOLOR DE CABEZA ESTOS INCONVENIENTES</h1>
                         <p className= "front-p2">Al pasar los años, tu caldera puede sufrir algunos inconvenientes mecánicos, es habitual. Nuestras aguas contienen impurezas que entorpecen el sistema de calefacción y tu caldera, <b>para eso estamos, para ayudarte y solucionar esté inconveniente.</b></p>
-                        <button className="btn btn-danger btn-txt"><a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a"><p className="p-btn">AGENDA TU VISITA</p></a></button>
+                        <div className="d-flex justify-content-center">
+                        <button className="my-btn-txt"><a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a">AGENDA TU VISITA</a></button>
+                        </div>
                     </div>
                     <div className = "col-lg-4 col-md-12 my-auto">
                     <img alt ="imagen1" className = "img-fluid d-none d-lg-block" src= "https://i.ibb.co/q5ZVkw8/1-1.jpg"/>
@@ -35,9 +37,11 @@ export default function Reparacion() {
                     </div>
                 </div>
             </div>
-                <div className="d-flex justify-content-center">
-                    <button className="btn btn-danger btn-box"><a className="a" href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica"><p className = "p-btn">VISITA URGENTE</p></a></button>
+            <div className="w-100 d-flex justify-content-center">
+                <div className="d-flex justify-content-center w-50">
+                    <button className="my-btn-txt m-5"><a className="a" href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica">VISITA URGENTE</a></button>
                 </div>
+            </div>
             </div>
         </div>
     );

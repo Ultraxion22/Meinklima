@@ -43,7 +43,7 @@ function SectionFour(props) {
                 </div>
                 <div className="row m-5 mb-5 mt-3">
                     <div className="col d-flex justify-content-center">
-                        <button className="my-btn-detail"><a>SOLICITAR SERVICIOS</a></button>
+                        <button className="my-btn-txt"><a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a">SOLICITAR SERVICIOS</a></button>
                     </div>
                 </div>
             </div>

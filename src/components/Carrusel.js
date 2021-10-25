@@ -5,13 +5,13 @@ import SplitMuro from "../components/images/split_muro.png"
 import AireAcondicionado from "../components/images/aire_acondicionado.png"
 import CalderaMural from "../components/images/caldera_mural.png"
 import Climatizacion from "../components/images/climatizacion.png"
+import { Link } from "react-router-dom";
 
 export default class AdaptiveHeight extends Component {
   render() {
     var settings = {
-      className: "container-carr",
       arrows:false,
-      dots: true,
+      dots: false,
       infinite: true,
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -24,17 +24,17 @@ export default class AdaptiveHeight extends Component {
     return (
       <div>
         <Slider {...settings}>
-          <div>
-            <img className="img-carrusel" src={AireAcondicionado}></img>
+          <div className="container-fluid">
+            <img className="img-carrusel img-fluid" src={AireAcondicionado}></img>
           </div>
-          <div>
-          <img className="img-carrusel" src={CalderaMural}></img>
+          <div className="container-fluid">
+            <img className="img-carrusel img-fluid" src={CalderaMural}></img>
           </div>
-          <div>
-          <img className="img-carrusel" src={SplitMuro}></img>
+          <div className="container-fluid">
+          <img className="img-carrusel img-fluid" src={SplitMuro}></img>
           </div>
-          <div>
-          <img className="img-carrusel" src={Climatizacion}></img>
+          <div className="container-fluid">
+          <img className="img-carrusel img-fluid" src={Climatizacion}></img>
           </div>
         </Slider>
       </div>

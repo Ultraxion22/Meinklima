@@ -8,6 +8,7 @@ import TextoB from '../components/TextoB';
 import Noticias from '../components/Noticias';
 import Texto3 from '../components/Texto3';
 import Primera from '../components/images/primera.png'
+import Garantia from '../components/images/garantia.png'
 
 export default function Home() {
     return (
@@ -29,8 +30,9 @@ export default function Home() {
                 />
                 <Texto3 />
                 <Texto texto = "Meinklima SPA. Entrega garantía por sus servicios (instalación, mantenimiento, reparación) y del producto, a lo cual, los productos están sujetos de igual modo con la garantía del proveedor directo. Siendo nuestra empresa encargada de responder por el producto y/o el servicio. Cada servicio y productos tiene su tiempo de garantía. Para saber más, puede comunicarse con nosotros vía whatsapp o telefónica."
-                    subtitulo="Garantía"/>
-                <Noticias/>
+                    subtitulo="Garantía"
+                    img={Garantia}
+                    />
 
             </div>
     );

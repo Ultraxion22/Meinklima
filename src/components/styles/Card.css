@@ -10,3 +10,17 @@
     font-size: 22px;
     font-weight: 600;
 }
+.card{
+    height: 664px;
+}
+@media (max-width: 900px){
+    .card{
+        height: auto;
+    }
+}
+.textos-card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

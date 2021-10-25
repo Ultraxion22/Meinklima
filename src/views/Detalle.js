@@ -11,7 +11,6 @@ export default function Detalle(props){
 
     console.log(searchTerm);
     
-
     const [nameList, setNameList] = useState([]);
 
     useEffect(()=> {
@@ -78,10 +77,7 @@ export default function Detalle(props){
                                         <p className="mb-4 agregado mt-0">INCLUYE INSTALACION</p>
                                         
                                         <div className="d-flex d-lg-inline justify-content-center">
-                                            <a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a"><button className="my-btn me-lg-3">COTIZAR</button></a>
-                                        </div>
-                                        <div className="d-flex d-lg-inline justify-content-center mt-0">
-                                            <a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a"><button className="my-btn2 mt-0">MANUAL DE USUARIO</button></a>
+                                            <a href = {`https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20cotizar%20un%20${val.categoria}%20${val.nombre}`} className="a"><button className="my-btn-txt me-lg-3">COTIZAR</button></a>
                                         </div>
                                         
                                     

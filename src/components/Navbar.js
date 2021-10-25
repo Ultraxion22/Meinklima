@@ -23,14 +23,14 @@ function Navbar() {
                       <Link className="navbar-p" to="/servicios">Servicios</Link>
                       </a>
                       <ul className="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
-                        <li className="mx-3 my-3"><Link className="navbar-p dropdown-item" to="/instalaciones">Instalacion</Link></li>
+                        <li className="mx-3 my-0"><Link className="navbar-p dropdown-item" to="/instalaciones">Instalacion</Link></li>
                         <li className="mx-3 my-3"><Link className="navbar-p dropdown-item" to="/mantenimiento">Mantenimiento</Link></li>
                         <li className="mx-3 my-3"><Link className="navbar-p dropdown-item" to="/reparaciones">Reparaciones</Link></li>
                         <li className="mx-3 my-2"><Link className="navbar-p dropdown-item" to="/proyectos">Proyectos</Link></li>
                       </ul>
                     </li>
                     <li className="nav-item px-3 py-2">
-                        <Link className="navbar-p nav-link" to="/catalogo">Catálogo</Link>
+                        <Link className="navbar-p nav-link" to="/catalogo">Catalogo</Link>
                     </li>
                     <li className="nav-item px-3 py-2">
                         <Link className="navbar-p nav-link" to="/">Tutoriales</Link>
@@ -41,15 +41,17 @@ function Navbar() {
                     <li className="nav-item px-3 py-2">
                         <Link className="navbar-p nav-link" to="/">Nosotros</Link>
                     </li>
+                    
+                    
                   </ul>
                   <div class="nav-button">
                     <div class="d-flex flex-row bd-highlight mb-2">
-                      <div class="p-3 bd-highlight" id="btn-nav" style={{backgroundColor:"rgb(214, 2, 56)"}}><Link className="link-button navbar-p dropdown-item" to="/mantenimiento">Llamar Ahora</Link></div>
-                      <div class="p-3 bd-highlight" id="btn-nav" style={{backgroundColor:"#282828"}}><Link className="link-button navbar-p dropdown-item" to="/mantenimiento">Acceso Técnicos</Link></div>
+                      <div class="p-3 bd-highlight" id="btn-nav" style={{backgroundColor:"rgb(214, 2, 56)"}}><a className="a" href="tel:+922154721" >Llamar Ahora</a></div>
+                      
                     </div>
                   </div>
                   <div>
-                    <p className="franja-p m-1 fw-bold" style={{color:"#232323", fontWeight: "600", paddingLeft: "10px"}}>Dolar USD: $775</p>
+                    <p className="franja-p m-1 fw-bold" style={{color:"#232323", fontWeight: "600", paddingLeft: "10px"}}>Dolar USD: $820</p>
                   </div>
                 </div>
               </div>

@@ -17,7 +17,7 @@ function Texto2() {
                     </div>
                 </div>
 
-                <div className = "col-10 col-md-2 col-sm-2 col-lg-2">
+                <div className = "col-9 col-md-2 col-sm-2 col-lg-2">
                     <p className = "txt-tittle">Planeación</p>
                     <p className = "p-txt2">De acuerdo a tus necesidades, planeamos a medida tu calefacción ideal.</p>
                     <p className = "txt-tittle">Ejecución</p>

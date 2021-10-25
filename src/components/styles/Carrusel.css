@@ -1,12 +1,5 @@
-.container-carr{
-        width: 100%;
-        height: 100vh !important;
-}
-.video{
-        height: 500px;
-}
 .img-carrusel{
-        height: 960px;
+        height: 100%;
         width: 100%;
         object-fit: fill;
 }

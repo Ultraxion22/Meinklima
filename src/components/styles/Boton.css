@@ -40,7 +40,8 @@
     font-weight: 600;
     position: relative;
     width: 80%;
-    height: 60px;
+    padding: 20px;
+    height: auto;
     background: #D60238;
     border: 1px solid #D60238;
     box-sizing: border-box;

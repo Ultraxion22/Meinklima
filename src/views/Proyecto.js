@@ -14,7 +14,9 @@ export default function Proyecto() {
                         <h1 className = "front-h1">¿PLANEAS TENER CALEFACCIÓN EN TU HOGAR?</h1>
                         <p className= "front-p2">Te ofrecemos nuestra ayuda para planear a la medida tu sistema de calefacción de acuerdo a lo que requiera tu hogar.</p>
                         <p className="front-p2">Puedes <b>agendar una visita gratis</b> con nosotros para ayudarte en este proceso.</p>
-                        <button className="btn btn-danger btn-txt"><a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a"><p className="p-btn">AGENDA TU VISITA</p></a></button>
+                        <div className="d-flex justify-content-center">
+                        <button className="my-btn-txt"><a href="https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20agendar%20una%20visita%20t%C3%A9cnica" className="a">AGENDA TU VISITA</a></button>
+                        </div>
                     </div>
                     <div className = "col-lg-4 col-md-12 my-auto">
                     <img alt ="imagen1" className = "img-fluid d-none d-lg-block" src= "https://i.ibb.co/r40D6bN/como-utilizar-la-calefaccion-del-hogar.jpg"/>

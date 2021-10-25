@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import Catalogo1 from "../components/images/catalogo1.png";
+import Catalogo2 from "../components/images/catalogo2.png";
+import Catalogo3 from "../components/images/catalogo3.png";
+import Catalogo4 from "../components/images/catalogo4.png";
+import { Link } from "react-router-dom";
 
 export default class SimpleSlider extends Component {
   render() {
@@ -12,79 +17,30 @@ export default class SimpleSlider extends Component {
       autoplay: true,
       speed: 2000,
       autoplaySpeed: 1500,
+      adaptiveHeight: true
     };
     return (
       <div className="mx-auto mb-1">
         <Slider {...settings}>
-          <div>
-          <div className="row d-flex justify-content-center">
-                    <div className="col-lg-12">
-                    <div className="row p-lg-5 m-lg-5 mb-3 main" style={{backgroundColor:"#fff"}}>
-                     
-                    <div className="col-xl-4 col-lg-12 col-md-12 col-12 me-lg-5 d-flex justify-content-center">
-                        <img className="img-catalogo" src="https://i.ibb.co/HXc9ndH/Navien-aquaplus-fondo.png"></img>
-                        </div>
-                    <div className="col-12 col-lg-6">
-                        <h3>ANWO</h3>
-                        <h1 >CALDERA BAXI DUO-TEC 28</h1>
-                        <h3>CALDERA MIXTA CONDENSACION</h3>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-            
-                        <h1 className="precio mt-3">1256<h5 className="d-inline">USD + IVA</h5></h1>
-                        <div className="d-flex justify-content-center d-lg-inline">
-                        <button  className="my-btn m-lg-2 m-2">SOLICITAR VISITA</button>
-                        <button  className="my-btn m-lg-2 m-2">CONOCER MAS</button> 
-                        </div>
-                    </div>
-                    </div>
-                    </div>
+          <div className="carrusel-catalogo">
+            <Link to="/catalogo/calderas"><img className="img-fluid img-carrusel-catalogo" src={Catalogo1}></img></Link>
+         </div>
+        <div className="carrusel-catalogo">
+        
+             
+                <Link to="/catalogo/aires"><img className="img-fluid img-carrusel-catalogo" src={Catalogo2}></img></Link>
+             
+        
         </div>
+        <div className="carrusel-catalogo">
+          
+                <Link to="/catalogo/calefon"> <img className="img-fluid img-carrusel-catalogo" src={Catalogo3}></img></Link>
+                
         </div>
-        <div>
-        <div className="row d-flex justify-content-center">
-                    <div className="col-lg-10">
-                    <div className="row p-lg-5 m-lg-5 mb-3 main" style={{backgroundColor:"#fff"}}>
-                     
-                    <div className="col-xl-4 col-lg-12 col-md-12 col-12 me-lg-5 d-flex justify-content-center">
-                        <img className="img-catalogo" src="https://i.ibb.co/HXc9ndH/Navien-aquaplus-fondo.png"></img>
-                        </div>
-                    <div className="col-12 col-lg-6">
-                        <h3>ANWO</h3>
-                        <h1 >CALDERA BAXI DUO-TEC 28</h1>
-                        <h3>CALDERA MIXTA CONDENSACION</h3>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                        <h1 className="precio mt-3">1256<h5 className="d-inline">USD + IVA</h5></h1>
-                        <div className="d-flex justify-content-center d-lg-inline">
-                        <button  className="my-btn m-lg-2 m-2">SOLICITAR VISITA</button>
-                        <button  className="my-btn m-lg-2 m-2">CONOCER MAS</button> 
-                        </div>
-                    </div>
-                    </div>
-                    </div>
-        </div>
-        </div>
-        <div>
-          <div className="row d-flex justify-content-center">
-                    <div className="col-lg-10">
-                    <div className="row p-lg-5 m-lg-5 mb-3 main" style={{backgroundColor:"#fff"}}>
-                     
-                    <div className="col-xl-4 col-lg-12 col-md-12 col-12 me-lg-5 d-flex justify-content-center">
-                        <img className="img-catalogo" src="https://i.ibb.co/HXc9ndH/Navien-aquaplus-fondo.png"></img>
-                        </div>
-                    <div className="col-12 col-lg-6">
-                        <h3>ANWO</h3>
-                        <h1 >CALDERA BAXI DUO-TEC 28</h1>
-                        <h3>CALDERA MIXTA CONDENSACION</h3>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                        <h1 className="precio mt-3">1256<h5 className="d-inline">USD + IVA</h5></h1>
-                        <div className="d-flex justify-content-center d-lg-inline">
-                        <button  className="my-btn m-lg-2 m-2">SOLICITAR VISITA</button>
-                        <button  className="my-btn m-lg-2 m-2">CONOCER MAS</button> 
-                        </div>
-                    </div>
-                    </div>
-                    </div>
-            </div>
+        <div className="carrusel-catalogo">
+          
+                <Link to="/catalogo/radiadores">  <img className="img-fluid img-carrusel-catalogo" src={Catalogo4}></img></Link>
+               
         </div>
           
         </Slider>

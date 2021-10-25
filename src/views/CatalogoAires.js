@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Axios from "axios";
 import Card from '../components/Card';
 import style from '../components/styles/Catalogo.css';
-
+import CarruselCatalogo from '../components/CarruselCatalogo';
 
 export default function CatalogoAires() {
 
@@ -19,6 +19,7 @@ export default function CatalogoAires() {
     return (
             <div>
                 <div>
+                <CarruselCatalogo />
                 <div className="row d-flex justify-content-center m-0 p-0">
                     
                     <div className="col-lg-10">

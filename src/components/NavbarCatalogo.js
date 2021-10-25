@@ -28,9 +28,7 @@ export default function Franja2() {
                     </li>
                   </ul>
                 </div>
-                <div className="m-3">
-                    <button id="buttons-navbarCatalogo2"><i class="fas fa-shopping-cart"></i> MI CARRITO</button>
-                </div>
+
                 </div>
             </div>
         </nav>
