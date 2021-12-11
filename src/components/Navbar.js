@@ -1,10 +1,28 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
-import './styles/Navbar.css'
+import './styles/Navbar.css';
+import Cookies from 'universal-cookie';
 
+const cookies = new Cookies();
 
 function Navbar() {
-    return(
+
+  const [botonActivo, setBotonActivo] = useState(false);
+
+  const cerrarSesion = () => {
+      cookies.remove('id', {path: "/"});
+      cookies.remove('correo', {path: "/"});
+      cookies.remove('nombre', {path: "/"});
+      window.location.href="/";
+  }
+
+  useEffect(()=>{
+    if(cookies.get('id')){
+      setBotonActivo(true);
+    }
+  })
+
+  return(
       <div>
         <div>
             <nav className="navbar navbar-expand-xl navbar-dark background-navbar">
@@ -32,26 +50,34 @@ function Navbar() {
                     <li className="nav-item px-3 py-2">
                         <Link className="navbar-p nav-link" to="/catalogo">Catalogo</Link>
                     </li>
-                    <li className="nav-item px-3 py-2">
-                        <Link className="navbar-p nav-link" to="/">Tutoriales</Link>
-                    </li>
-                    <li className="nav-item px-3 py-2">
-                        <Link className="navbar-p nav-link" to="/">Noticias</Link>
-                    </li>
-                    <li className="nav-item px-3 py-2">
-                        <Link className="navbar-p nav-link" to="/">Nosotros</Link>
-                    </li>
-                    
-                    
                   </ul>
                   <div class="nav-button">
                     <div class="d-flex flex-row bd-highlight mb-2">
                       <div class="p-3 bd-highlight" id="btn-nav" style={{backgroundColor:"rgb(214, 2, 56)"}}><a className="a" href="tel:+922154721" >Llamar Ahora</a></div>
-                      
                     </div>
                   </div>
-                  <div>
-                    <p className="franja-p m-1 fw-bold" style={{color:"#232323", fontWeight: "600", paddingLeft: "10px"}}>Dolar USD: $820</p>
+                  <div hidden={botonActivo}  class="nav-button">
+                    <div class="d-flex flex-row bd-highlight mb-2">
+                      <div class="p-3 bd-highlight" id="btn-nav" style={{backgroundColor:"rgb(214, 2, 56)"}}><Link className="a" to="/registro">Registro</Link></div>
+                    </div>
+                  </div>
+                  <div hidden={botonActivo}  class="nav-button">
+                    <div class="d-flex flex-row bd-highlight mb-2">
+                      <div class="p-3 bd-highlight" id="btn-nav" style={{backgroundColor:"rgb(214, 2, 56)"}}><Link className="a" to="/login">Iniciar Sesion</Link></div>
+                    </div>
+                  </div>
+                  <div hidden={!botonActivo} class="nav-button">
+                    <div class="d-flex flex-row bd-highlight mb-2">
+                      <div class="p-3 bd-highlight" id="btn-nav" style={{backgroundColor:"rgb(214, 2, 56)"}}><button onClick={() => {cerrarSesion()}} className='btn-danger'>Cerrar Sesion</button></div>
+                    </div>
+                  </div>
+                  <div hidden={!botonActivo} class="nav-button">
+                    <div class="d-flex flex-row bd-highlight mb-2">
+                      <div class="p-3 bd-highlight" id="btn-nav" style={{backgroundColor:"rgb(214, 2, 56)"}}><Link className="a" to="/carrito">Carrito</Link></div>
+                    </div>
+                  </div>
+                  <div hidden={!botonActivo} >
+                    <p className="franja-p m-1 fw-bold" style={{color:"#232323", fontWeight: "600", paddingLeft: "10px"}}>Bienvenido {cookies.get('nombre')}</p>
                   </div>
                 </div>
               </div>

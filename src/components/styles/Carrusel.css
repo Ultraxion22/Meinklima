@@ -3,3 +3,17 @@
         width: 100%;
         object-fit: fill;
 }
+
+.carrusel-home{
+        height: 850px;
+        width: 100%;
+        background-color: #F9F9F9;
+    }
+    
+@media (max-width: 900px){
+        .carrusel-home{
+            height: 300px;
+            width: 100%;
+            background-color: #F9F9F9;
+        }
+    }

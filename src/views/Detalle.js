@@ -1,35 +1,49 @@
 import React, { useState, useEffect } from 'react';
 import Axios from "axios";
 import Card from '../components/Card';
-import '../components/styles/Detalle.css'
+import '../components/styles/Detalle.css';
+import Cookies from 'universal-cookie';
+
+const cookies = new Cookies();
 
 export default function Detalle(props){
-
-    let identificador = props.match.params.idef;
-    console.log(identificador);
-    const [searchTerm, setSearchTerm] = useState(identificador);
-
-    console.log(searchTerm);
     
+    const [idUser, setIdUser] = useState("");
+    const [idProd, setIdProd] = useState("");
+    const [searchTerm, setSearchTerm] = useState('')
     const [nameList, setNameList] = useState([]);
+    let identificador = props.match.params.idef;
+
+    useEffect(()=>{
+        setIdUser(cookies.get('id'));
+        setIdProd(identificador);
+    })
+
+    console.log(idUser);
+    console.log(idProd);
 
     useEffect(()=> {
-        Axios.get('http://localhost:3001/api/get').then((response)=> {
+        Axios.get(`http://localhost:3001/api/search/${identificador}`).then((response)=> {
         setNameList(response.data)
-        });
-    }, []);
-    
-    const [nameList1, setNameList1] = useState([]);
-
-    useEffect(()=> {
-        Axios.get('http://localhost:3001/api/get').then((response)=> {
-        setNameList1(response.data)
         });
     }, []);
 
     function dividir(descr){
         var caracteristicas = descr.split(";");
         return caracteristicas;
+    }
+
+    const agregarCarrito = () => {
+        if(cookies.get('id')){
+            Axios.post("http://localhost:3001/api/agregar", {
+            id_user: idUser, id_producto: idProd, 
+            });
+            alert("Agregado Correctamente");
+        }
+        else{
+            alert("Debe iniciar sesion para agregar al carro");
+        }
+        
     }
 
     return(
@@ -77,7 +91,7 @@ export default function Detalle(props){
                                         <p className="mb-4 agregado mt-0">INCLUYE INSTALACION</p>
                                         
                                         <div className="d-flex d-lg-inline justify-content-center">
-                                            <a href = {`https://api.whatsapp.com/send/?phone=56922154721&text=Hola,%20dese%C3%B3%20cotizar%20un%20${val.categoria}%20${val.nombre}`} className="a"><button className="my-btn-txt me-lg-3">COTIZAR</button></a>
+                                            <button onClick={agregarCarrito} className="my-btn-txt me-lg-3">AGREGAR CARRITO</button>
                                         </div>
                                         
                                     

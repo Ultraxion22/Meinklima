@@ -26,11 +26,7 @@ export default class SimpleSlider extends Component {
             <Link to="/catalogo/calderas"><img className="img-fluid img-carrusel-catalogo" src={Catalogo1}></img></Link>
          </div>
         <div className="carrusel-catalogo">
-        
-             
-                <Link to="/catalogo/aires"><img className="img-fluid img-carrusel-catalogo" src={Catalogo2}></img></Link>
-             
-        
+            <Link to="/catalogo/aires"><img className="img-fluid img-carrusel-catalogo" src={Catalogo2}></img></Link>
         </div>
         <div className="carrusel-catalogo">
           

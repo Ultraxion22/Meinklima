@@ -355,3 +355,7 @@ a{
 }
 /*Texto2*/
 
+.btn-danger{
+    background-color: transparent;
+    border: none;
+}

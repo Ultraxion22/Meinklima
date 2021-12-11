@@ -1,8 +1,13 @@
+import axios from 'axios';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles/NavbarCatalogo.css';
 
 export default function Franja2() {
+    
+    const categoria = (category) => {
+        axios.post(`http://localhost:3001/api/categorias/${category}`);
+    };
 
     return (
     <div>
@@ -15,7 +20,7 @@ export default function Franja2() {
                 <div className="w-75 d-lg-flex justify-content-center">
                 <ul className="navbar-nav"> 
                     <li className="nav-item p-3">
-                        <Link className="nav-navbarCatalogo" to="/catalogo/calderas">Calderas</Link>
+                        <Link onClick={() => {categoria("CALDERAS")}} className="nav-navbarCatalogo" to="/catalogo/calderas">Calderas</Link>
                     </li>
                     <li className="nav-item p-3">
                         <Link className="nav-navbarCatalogo" to="/catalogo/aires">Aire Acondicionado</Link>

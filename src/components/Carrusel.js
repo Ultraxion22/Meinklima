@@ -24,16 +24,16 @@ export default class AdaptiveHeight extends Component {
     return (
       <div>
         <Slider {...settings}>
-          <div className="container-fluid">
+          <div className="carrusel-home">
             <img className="img-carrusel img-fluid" src={AireAcondicionado}></img>
           </div>
-          <div className="container-fluid">
+          <div className="carrusel-home">
             <img className="img-carrusel img-fluid" src={CalderaMural}></img>
           </div>
-          <div className="container-fluid">
+          <div className="carrusel-home">
           <img className="img-carrusel img-fluid" src={SplitMuro}></img>
           </div>
-          <div className="container-fluid">
+          <div className="carrusel-home">
           <img className="img-carrusel img-fluid" src={Climatizacion}></img>
           </div>
         </Slider>

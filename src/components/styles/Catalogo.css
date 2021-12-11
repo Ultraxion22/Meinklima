@@ -18,6 +18,12 @@ a{
     width: 100%;
     object-fit: contain;
 }
+.carrusel-catalogo{
+    height: 300px;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
 @media (max-width: 900px){
     .carrusel-catalogo{
         height: 300px;
